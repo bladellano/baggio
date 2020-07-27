@@ -1,5 +1,15 @@
 $(function(){
+
+	/* Fixed Topo */
+	window.onscroll = () => {
+		if (window.pageYOffset > 100) {
+			$('.navbar').addClass('fixed-top');
+		} else {
+			$('.navbar').removeClass('fixed-top');
+		}
+	}
 	
+	/* Partners-slick */
 
 	$('.partners-slick').slick({
 		infinite: true,
