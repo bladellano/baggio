@@ -5,6 +5,7 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="theme-color" content="#183459">
 	<title>Baggio Imóveis – Soluções em negócios imobiliários</title>
 
 	<link rel="icon" type="image/png" size="192x192" href="assets/images/favicon-96x96.png">
