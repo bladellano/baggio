@@ -60,7 +60,7 @@
 		<li class="breadcrumb-item active" aria-current="page">A Baggio</li>
 	</ol>
 
-	<div class="container-fluid">
+	<div class="container-fluid main-bg">
 
 		<div class="section">
 			<div class="row">

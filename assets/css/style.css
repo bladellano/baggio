@@ -13,6 +13,11 @@
 	box-sizing:border-box;
 }
 
+/*Main*/
+.main-bg{
+	width: 94%;
+}
+
 /*partners-slick*/
 
 .partners-slick img{
@@ -134,7 +139,7 @@
 	border:1px solid var(--cor-primaria);
 	padding: 8px;
 	transition: all .3s;
-	height: 250px;
+	height: 300px;
 	overflow-y: auto;
 }
 .cards-baggio h4{
@@ -251,6 +256,7 @@ nav .navbar-nav .nav-item{
 
 .section p {
 	color:var(--cor-primaria);	
+	text-align: justify;
 }
 
 
