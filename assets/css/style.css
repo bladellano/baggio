@@ -16,7 +16,7 @@
 /*partners-slick*/
 
 .partners-slick img{
-max-width: 200px;
+	max-width: 200px;
 }
 
 /*Slick*/
@@ -49,19 +49,20 @@ max-width: 200px;
 	text-align: center;
 }
 .accountants li div {
-	min-width: 258px;
+	width: 200px;
 	margin: 0 auto;
 }
 .accountants li div p{
 	color:var(cor-primaria);
 	font-size: 18px;
 	text-align:center!important;
+	font-weight: bold;
 }
 .accountants li div h4{
 	color:var(--cor-secundaria);
-	font-size: 44px;
+	font-size: 48px;
 	font-weight: bold;
-	letter-spacing: -2px;
+	letter-spacing: -3px;
 }
 
 /* Flex Wrap Peoples */
@@ -90,6 +91,23 @@ max-width: 200px;
 	border-radius: 50%!important;
 	width: 140px;
 }
+/* Let's get this party started */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: 4px;
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #E6E6E6; 
+	border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #EEE5; 
+}
 
 /* Flex Cards */
 .cards-baggio{
@@ -100,10 +118,13 @@ max-width: 200px;
 	list-style-type: none;
 	padding: 0;
 }
+.cards-baggio p{
+	font-size: 13px;
+}
 .cards-baggio li{
 	flex: 1 1 200px;
 	margin:10px;
-	text-align: center;
+	text-align: center;	
 }
 .cards-baggio a:hover{
 	text-decoration: none;
@@ -113,6 +134,8 @@ max-width: 200px;
 	border:1px solid var(--cor-primaria);
 	padding: 8px;
 	transition: all .3s;
+	height: 250px;
+	overflow-y: auto;
 }
 .cards-baggio h4{
 	color:var(--cor-primaria);
@@ -198,7 +221,8 @@ nav .navbar-nav .nav-item{
 /* Section */
 
 .section{
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	padding:18px 0px;
 }
 .section img{
 	border-radius: 6px;
@@ -214,6 +238,7 @@ nav .navbar-nav .nav-item{
 	font-size: 20px;
 	color:var(--cor-primaria);
 	letter-spacing: -1px;
+	margin-bottom: 38px;
 }
 .section h3 span {
 	background-color: #FFF;

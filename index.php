@@ -94,6 +94,7 @@
 								<i class="fas fa-bullseye"></i>
 								<h4>Missão</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
 							</a>
 						</li>
 						<li>
