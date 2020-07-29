@@ -67,7 +67,7 @@
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" ></script>
 	<script src="bower_components/slick-carousel/slick/slick.js" ></script>
 	<script	src="assets/js/main.js"></script>
-
+	<script async data-id="55962" src="https://cdn.widgetwhats.com/script.min.js"></script>
 
 </body>
 </html>
