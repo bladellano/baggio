@@ -90,7 +90,7 @@
 						<div class="list-contact">
 							<h4>Vila Izabel</h4>
 							<ul>
-								<li>(41) 3015-2727</li>
+								<li><i class="fa fa-phone"></i> (41) 3015-2727</li>
 								<li>Rua Prof. Ulisses Vieira, 894.</li>
 							</ul>
 						</div>
@@ -99,7 +99,7 @@
 						<div class="list-contact">
 							<h4>Campo Comprido</h4>
 							<ul>
-								<li>(41) 3015-2727</li>
+								<li> <i class="fa fa-phone"></i> (41) 3015-2727</li>
 								<li>Rua Prof. Ulisses Vieira, 894.</li>
 							</ul>
 						</div>

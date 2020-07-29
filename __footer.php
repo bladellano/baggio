@@ -68,5 +68,7 @@
 	<script src="bower_components/slick-carousel/slick/slick.js" ></script>
 	<script	src="assets/js/main.js"></script>
 
+
 </body>
 </html>
+
