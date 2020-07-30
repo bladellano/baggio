@@ -1,11 +1,20 @@
 $(function(){
 
-	/* Fixed Topo */
 	window.onscroll = () => {
+
+		/* Fixed Topo */
+
 		if (window.pageYOffset > 100) {
 			$('.navbar').addClass('fixed-top');
 		} else {
 			$('.navbar').removeClass('fixed-top');
+		}
+
+		/* Main Title Sales */
+		if (window.pageYOffset > 272) {
+			$('.main-title-sales').css('top', window.pageYOffset +'px');
+		} else {
+			$('.main-title-sales').css('top','absolute');
 		}
 	}
 	
@@ -36,8 +45,6 @@ $(function(){
 		}
 		]
 	});
-
-
 
 });
 

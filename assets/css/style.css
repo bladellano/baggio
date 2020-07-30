@@ -18,6 +18,86 @@
 	width: 96%;
 }
 
+/* Customer Radio/Check */
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+	position: absolute;
+	left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+	position: relative;
+	padding-left: 28px;
+	cursor: pointer;
+	line-height: 20px;
+	display: inline-block;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+	content: '';
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 19px;
+	height: 19px;
+	border: 1px solid #CCC;
+	border-radius: 25%;
+	background: #FFF;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+	content: '';
+	width: 12px;
+	height: 12px;
+	background: var(--cor-secundaria);
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	border-radius: 25%;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/* Sales */
+.bg-sales-baggio{
+	background-image: url(../images/home-vendas.jpg);
+	background-repeat: none;
+	background-position: center left;
+	position: relative;
+	min-height: 900px;
+}
+.main-title-sales p{
+	color:#FFF;
+	font-size: 12px;
+}
+.main-title-sales h3{
+	color:#FFF;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.main-title-sales{
+	position: absolute;
+	background-color: rgba(18, 61, 107,.7);
+	height: 300px;
+	width: 300px;
+	right: 0px;
+	top: 25%;
+	padding: 20px;
+	border-radius: 25px 0px 0px 25px;
+}
+
 /* Contact */
 
 .wrap-contact{
@@ -29,6 +109,7 @@
 	background-image: url(../images/bg-contact.jpg);
 	background-repeat: none;
 	background-position: center center;
+	position: relative;
 }
 
 .list-contact h4{
