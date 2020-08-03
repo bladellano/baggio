@@ -67,7 +67,7 @@
 					<button type="submit" class="btn btn-baggio btn-block">Quero Marcar</button>
 				</form>
 
-			
+				
 			</div><!-- SECTION -->
 		</div>
 	</div>

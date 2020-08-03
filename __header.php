@@ -17,43 +17,45 @@
 	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.2/css/ol.css" type="text/css">
+
 	<link rel="stylesheet" href="assets/css/style.css">
 	
 </head>
 <body>
 
 	<nav class="navbar navbar-expand-md navbar-dark bg-navbar-baggio">
-	<a class="navbar-brand" href="#">
-		<img src="assets/images/baggio-logo-30-anos.png" alt="">
-	</a>
+		<a class="navbar-brand" href="#">
+			<img src="assets/images/baggio-logo-30-anos.png" alt="">
+		</a>
 
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-		<span class="navbar-toggler-icon"></span>
-	</button>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-	<div class="collapse navbar-collapse" id="collapsibleNavbar">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<button class="btn btn-default btn-baggio btn-xs-block">
-					<i class="fas fa-handshake"></i> Anuncie seu imóvel
-				</button>
-			</li>
-			<li class="nav-item">
-				<button class="btn btn-default btn-baggio btn-xs-block">
-					<i class="fa fa-mobile"></i> Conheça nosso App
-				</button>
-			</li>
-			<li class="nav-item d-none d-md-block">
-				<i class="fa fa-phone"></i><span class="phone">(41) 3015-2727</span>
-			</li> 
-			<li class="nav-item d-none d-md-block">
-				<ul class="socials">
-					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
-				</ul>
-			</li>   
-		</ul>
-	</div>  
-</nav>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<button class="btn btn-default btn-baggio btn-xs-block">
+						<i class="fas fa-handshake"></i> Anuncie seu imóvel
+					</button>
+				</li>
+				<li class="nav-item">
+					<button class="btn btn-default btn-baggio btn-xs-block">
+						<i class="fa fa-mobile"></i> Conheça nosso App
+					</button>
+				</li>
+				<li class="nav-item d-none d-md-block">
+					<i class="fa fa-phone"></i><span class="phone">(41) 3015-2727</span>
+				</li> 
+				<li class="nav-item d-none d-md-block">
+					<ul class="socials">
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+					</ul>
+				</li>   
+			</ul>
+		</div>  
+	</nav>

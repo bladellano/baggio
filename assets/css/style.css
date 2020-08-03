@@ -12,11 +12,97 @@
 	outline:0;
 	box-sizing:border-box;
 }
-
 /*Main*/
 .main-baggio{
 	width: 96%;
 }
+
+/* Newsletter */
+.bg-newsletter{
+}
+.bg-newsletter p{
+	font-size: 12px;
+}
+.bg-newsletter h3{
+	height: 0px!important;
+	margin-bottom: 26px!important;
+}
+
+/* Map */
+.wrap-map{
+	position: relative;
+
+}
+.map {
+	height: 440px;
+	width: 100%;
+	margin:0px;
+	padding:0px;
+}
+.form-box-search{
+	border-radius: 15px 0px 0px 15px;
+	width: 250px;
+	padding: 0px 12px; 
+	position: absolute;
+	background-color: rgba(18, 61, 107,.5);
+	right: 10%;
+	top: 6%;
+	padding-top: 10px;
+}
+.form-box-search p{
+	color: #FFF;
+	font-size: 12px;
+}
+.form-box-search h3{
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Button Custom Search */
+
+.custom-radio-button-baggio:checked + label,
+.custom-radio-button-baggio:not(:checked) + label
+{
+	text-align: center;
+}
+.custom-radio-button-baggio:checked + label:before,
+.custom-radio-button-baggio:not(:checked) + label:before {
+	top: 0px!important;
+	left: 0px!important;
+	width: 76px!important;
+	height: 26px!important;
+	border-radius: 0%!important;
+	background-color:#5E88A5!important;
+}
+.custom-radio-button-baggio:checked + label:after,
+.custom-radio-button-baggio:not(:checked) + label:after {
+	width: 76px!important;
+	height: 26px!important;
+	top: 0px!important;
+	left: 0px!important;
+	border-radius: 0%!important;
+}
+
+.custom-radio-button-baggio#comprar:checked + label:before,
+.custom-radio-button-baggio#comprar:not(:checked) + label:before {
+	content: 'Comprar'!important;
+}
+
+.custom-radio-button-baggio#alugar:checked + label:before,
+.custom-radio-button-baggio#alugar:not(:checked) + label:before {
+	content: 'Alugar'!important;
+
+} 
+.custom-radio-button-baggio#comprar:checked + label:after,
+.custom-radio-button-baggio#comprar:not(:checked) + label:after {
+	content: 'Comprar'!important;
+}
+
+.custom-radio-button-baggio#alugar:checked + label:after,
+.custom-radio-button-baggio#alugar:not(:checked) + label:after {
+	content: 'Alugar'!important;
+} 
 
 /* Customer Radio/Check */
 
@@ -321,6 +407,109 @@ nav .navbar-nav .nav-item{
 	font-size: 22px;
 }
 
+/* Card Spotlight */
+.card-spotlight{
+	max-width: 225px;
+	transition: all .3s;
+	border-radius: 13px 0px 0px 0px;	
+	margin: 0 auto;
+	margin-bottom: 4px;
+	margin-top: 5px;
+}
+.card-spotlight:hover{
+	box-shadow: 0px 2px 6px #CCC;
+}
+.card-spotlight .card-spotlight-end{
+	font-size: 11px;
+	text-align: center;
+}
+.card-spotlight img{
+	border-radius: 13px 0px 0px 13px !important;
+}
+.card-spotlight h4{
+	font-size: 12px;
+	margin-top: 4px;
+	text-align: center;
+	color:var(--cor-primaria);
+	font-weight: bold;
+}
+
+.card-spotlight ul{
+	margin:0px;
+	list-style:none;
+	padding: 0px 6px;
+}
+.card-spotlight ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 14px;
+	color:var(--cor-primaria);
+}
+.card-spotlight ul li a:hover{
+	text-decoration: none;
+}
+.card-spotlight ul li a{
+
+}
+.card-spotlight ul li i{
+	color:var(--cor-secundaria);
+	display: block;
+}
+.card-spotlight .card-spotlight-price{
+	font-size: 20px;
+	padding: 0px 6px;
+}
+.card-spotlight hr{
+	margin:0 auto 8px;
+	width: 86%;
+	padding: 0px 6px;
+	clear:both;
+}
+
+/* Card Blog */
+.card-blog{
+	max-width: 225px;
+	transition: all .3s;
+	border-radius: 13px 0px 0px 0px;	
+	margin: 0 auto;
+	margin-bottom: 4px;
+	margin-top: 5px;
+}
+.card-blog:hover{
+	box-shadow: 0px 2px 6px #CCC;
+}
+.card-blog img{
+	border-radius: 13px 0px 0px 13px !important;
+}
+.card-blog h4 {
+	font-size: 14px;
+	text-align: center;
+	color:var(--cor-primaria);
+	font-weight: bold;
+}
+.card-blog .date {
+	font-size: 12px;
+	text-align: center;
+}
+.card-blog .content {
+	font-size: 11px;
+	padding: 4px;
+}
+.card-blog .complete-content a{
+	color:var(--cor-secundaria);
+	transition: all .3s;
+}
+.card-blog .complete-content a:hover{
+	text-decoration: none;
+	color:var(--cor-primaria);
+}
+.card-blog .complete-content{
+	font-size: 12px;
+	color: var(--cor-secundaria);
+	text-align: right;
+	padding: 4px;
+}
 
 /* Breadcrumb */
 
@@ -343,6 +532,7 @@ nav .navbar-nav .nav-item{
 .section img{
 	border-radius: 6px;
 	margin-top: -5px;
+	width: 100%;
 }
 
 .section h3 {
@@ -428,6 +618,19 @@ footer {
 /*======================*/
 
 @media (max-width: 576px) {
+	.form-box-search {
+		right: 0px;
+	}
+	.bg-newsletter h3{
+		margin-bottom: 54px !important;
+	}
+
+	.card-blog {
+		max-width: 200px;
+	}
+	.card-spotlight {
+		max-width: 200px;
+	}
 	.text-xs-center {
 		text-align: center !important;
 	}	

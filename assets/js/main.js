@@ -12,12 +12,66 @@ $(function(){
 
 		/* Main Title Sales */
 		if (window.pageYOffset > 272) {
-			$('.main-title-sales').css('top', window.pageYOffset +'px');
+			$('.main-title-sales').css('top',window.pageYOffset +'px');
 		} else {
 			$('.main-title-sales').css('top','absolute');
 		}
 	}
+
+	/* Slick Card Spotlight */
+	$('.slick-card-spotlight').slick({
+		infinite: true,
+		slidesToShow: 5,
+		responsive: [
+		{
+			breakpoint: 800,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				arrows:false,
+				dots:true
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				centerMode: true,
+				dots: true,
+				arrows: false,
+			}
+		}
+		]
+	});
 	
+	/* Slick Card Blog */
+
+	$('.slick-card-blog').slick({
+		infinite: true,
+		slidesToShow: 5,
+		responsive: [
+		{
+			breakpoint: 800,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				arrows:false,
+				dots:true
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				centerMode: true,
+				dots: true,
+				arrows: false,
+			}
+		}
+		]
+	});
 	/* Partners-slick */
 
 	$('.partners-slick').slick({
