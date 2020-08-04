@@ -16,6 +16,85 @@
 .main-baggio{
 	width: 96%;
 }
+/* Card Distributors Notary */
+.card-distributors-notary{
+	color:var(--cor-primaria);	
+	margin-top: 15px;
+}
+.card-distributors-notary h4{
+	letter-spacing: -1px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.card-distributors-notary p{
+	font-size: 12px;
+}
+.card-distributors-notary p:last-child{
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* Card Benefits */
+.card-benefits{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	display: flex;
+	flex-wrap: wrap;	
+	max-width: 820px;
+	margin:0 auto;
+}
+.card-benefits li{
+	flex: 1 1 260px;
+	text-align: center;
+}
+.card-benefits li > div{
+	color:var(--cor-primaria);	
+	margin-top: 20px;
+}
+.card-benefits li > div > i{
+	font-size: 50px;
+}
+.card-benefits li > div > h4{
+	letter-spacing: -1px;
+	font-weight: bold;
+	font-size: 18px;
+	margin:12px ;
+}
+.card-benefits li > div > p{
+	text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	max-width: 180px;
+	margin:0 auto;
+}
+
+/* Card Location */
+
+.card-locations{
+	text-align: center;	
+	color:var(--cor-primaria);	
+	background-color: #EEE;
+	border-radius: 8px;
+	padding:30px 80px;
+	max-width: 550px;
+	margin:0 auto;
+}
+.card-locations i{
+	font-size: 78px;
+}
+.card-locations h4{
+	margin:20px 0px;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.card-locations .btn-outline-light{
+	background-color: none;
+	color:var(--cor-secundaria); 
+	border:1px solid var(--cor-secundaria);
+}
 
 /* Newsletter */
 .bg-newsletter{
@@ -618,6 +697,10 @@ footer {
 /*======================*/
 
 @media (max-width: 576px) {
+	.card-locations{
+		padding:30px 40px;
+		margin-bottom: 10px;
+	}
 	.form-box-search {
 		right: 0px;
 	}

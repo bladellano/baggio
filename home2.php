@@ -7,7 +7,7 @@
 	<div class="form-box-search">
 		<h3>O que procura?</h3>
 		<p>
-			<input class="custom-radio-button-baggio" checked="" type="radio" name="modality" id="comprar" value="comprar">
+			<input class="custom-radio-button-baggio" type="radio" name="modality" id="comprar" value="comprar" checked="">
 			<label for="comprar">Comprar</label>
 
 			<input class="custom-radio-button-baggio" type="radio" name="modality" id="alugar" value="alugar">
