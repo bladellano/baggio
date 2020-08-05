@@ -3,7 +3,6 @@
 	/* Variables Colors */
 	--cor-primaria:#183459;
 	--cor-secundaria:#E58928;
-
 }
 
 * {
@@ -12,10 +11,129 @@
 	outline:0;
 	box-sizing:border-box;
 }
+
 /*Main*/
 .main-baggio{
 	width: 96%;
 }
+
+.wrap-result ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;	
+	max-width: 100%;
+	margin:0 auto;
+}
+
+.wrap-result ul li{
+	margin-top: 20px;
+	padding: 0px 25px;
+}
+
+/* Options of Numbers */
+
+.number-of-options{
+	position: relative;
+}
+.number-of-options p{
+	position: absolute;
+}
+.number-of-options > [type=radio]  { 
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}		
+.number-of-options > [type=radio] + h5 {
+	cursor: pointer;
+	width: 48px;
+	height: 48px;
+	font-size: 16px;
+	color:#FFF;
+	text-align: center;
+	line-height: 42px;
+	border-radius: 50%;
+	border:1px solid #FFF;
+}
+.number-of-options > [type=radio]:checked + h5 {
+	background-color: var(--cor-secundaria);
+	border:1px solid #FFF;
+}
+
+/* Interest Options */
+.interest-options{
+	position: relative;
+}
+.interest-options p{
+	position: absolute;
+	top: 58%;
+	right: 47%;
+	transform: translateX(45%);
+	font-size: 9px !important;
+	font-weight: normal;
+}
+.interest-options > [type=radio]  { 
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}		
+.interest-options > [type=radio] + i {
+	cursor: pointer;
+	width: 66px;
+	height: 66px;
+	font-size: 20px;
+	color:#FFF;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 8px;
+	border:1px solid #FFF;
+}
+.interest-options > [type=radio]:checked + i {
+	background-color: var(--cor-secundaria);
+	border:1px solid #FFF;
+}
+
+/* Wrap Filter/Jquery UI */
+
+.ui-slider-handle:hover{
+	cursor: grab;
+}
+.ui-slider-handle{
+	border-radius: 50%;
+}
+.ui-slider-range{
+	background-color: var(--cor-secundaria);
+}
+.wrap-values-range{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color:#FFF;
+}
+.wrap-filter hr{
+	border-color: #FFF;
+	margin: 10px 0px;
+}
+.wrap-filter{
+	background-color: #4E6480;
+	height: auto;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	border-radius: 0px 0 0px 10px;
+}
+.wrap-filter p{
+	color: #FFF;
+	font-size: 12px;
+}
+
+.wrap-filter h3, .wrap-filter .form-group > label{
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
 /* Card Distributors Notary */
 .card-distributors-notary{
 	color:var(--cor-primaria);	
@@ -502,10 +620,11 @@ nav .navbar-nav .nav-item{
 	font-size: 11px;
 	text-align: center;
 }
-.card-spotlight img{
+.card-spotlight > img{
 	border-radius: 13px 0px 0px 13px !important;
+	width: 100%!important;
 }
-.card-spotlight h4{
+.card-spotlight > h4{
 	font-size: 12px;
 	margin-top: 4px;
 	text-align: center;
@@ -514,8 +633,8 @@ nav .navbar-nav .nav-item{
 }
 
 .card-spotlight ul{
-	margin:0px;
-	list-style:none;
+	margin: 0px;
+	list-style: none;
 	padding: 0px 6px;
 }
 .card-spotlight ul li{
@@ -538,6 +657,7 @@ nav .navbar-nav .nav-item{
 .card-spotlight .card-spotlight-price{
 	font-size: 20px;
 	padding: 0px 6px;
+	color:var(--cor-primaria);
 }
 .card-spotlight hr{
 	margin:0 auto 8px;
@@ -697,6 +817,14 @@ footer {
 /*======================*/
 
 @media (max-width: 576px) {
+
+	.wrap-result ul{
+		display:block;
+	}
+
+	.wrap-result ul li{
+		padding: 0px 0px;
+	}
 	.card-locations{
 		padding:30px 40px;
 		margin-bottom: 10px;

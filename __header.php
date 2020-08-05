@@ -18,7 +18,12 @@
 	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.2/css/ol.css" type="text/css">
-
+	
+	<!-- Jquery UI - Range -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<!-- End - Jquery UI - Range -->
+	
 	<link rel="stylesheet" href="assets/css/style.css">
 	
 </head>

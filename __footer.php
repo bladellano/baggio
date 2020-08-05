@@ -68,8 +68,9 @@
 <script src="bower_components/slick-carousel/slick/slick.js" ></script>
 <script	src="assets/js/main.js"></script>
 <script async data-id="55962" src="https://cdn.widgetwhats.com/script.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-<!-- Script to maps -->
+<!-- Script to Maps -->
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.2/build/ol.js"></script>
 <script type="text/javascript">
 	var map = new ol.Map({

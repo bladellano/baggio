@@ -1,9 +1,36 @@
 $(function(){
 
+	/* Jquery UI - Range */
+
+	$( "#slider-range" ).slider({
+		range: true,
+		min: 100,
+		max: 250000,
+		values: [ 10000, 55000 ],
+		slide: function( event, ui ) {
+			$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			$('.wrap-values-range #v-left').html('<div>R$ '+ $( "#slider-range" ).slider( "values", 0 )  +'</div>');
+			$('.wrap-values-range #v-right').html('<div>R$ '+ $( "#slider-range" ).slider( "values", 1 ) +'</div>');
+		}
+	});
+
+	$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+		" - $" + $( "#slider-range" ).slider( "values", 1 ) );
+
+
+	/* Validando ainda...  */
+	window.onresize = ()=>{
+		if (window.innerWidth <= 576) {
+			// $('.wrap-result > ul').addClass(['slick-card-spotlight','slick-initialized','slick-slider','slick-dotted']);   
+		} else {
+			// $('.wrap-result > ul').removeClass('slick-card-spotlight');
+		}
+	}
+
+	
 	window.onscroll = () => {
 
-		/* Fixed Topo */
-
+		/* Fixed Topo */		
 		if (window.pageYOffset > 100) {
 			$('.navbar').addClass('fixed-top');
 		} else {
