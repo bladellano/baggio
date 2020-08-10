@@ -336,29 +336,27 @@
 				<a href="#">Ver todas as taxas</a> <i class="fa fa-arrow-right"></i>
 
 				<a href="#" data-toggle="collapse" data-target="#agendar-visita" class="btn btn-outline-light btn-block">AGENDAR VISITA</a>
-
+				
 				<div id="agendar-visita" class="collapse">
 
 					<form>
 						<div class="form-group">
-							<input type="text" class="form-control" id="name" name="name" placeholder="Nome">
+							<input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
 						</div>
+
+						<div class="form-group">
+							<input type="phone" class="form-control" id="phone" name="phone" placeholder="Telefone">
+						</div>
+
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+								<input type="email" class="form-control" id="date" name="date" placeholder="Selecione uma data">
 							</div>
 							<div class="form-group col-md-6">
-								<input maxlength="15" type="text" onkeyup="mascara(this,mtel);" class="form-control" id="phone" name="phone" placeholder="DD+Telefone com 9 dígitos">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Selecione um horário">
 							</div>
 						</div>
-						<div class="form-group">
-							<select id="subject" name="subject" class="form-control">
-								<option selected>Assunto</option>
-								<option>Lorem Ipsum não é simplesmente</option>
-								<option>Literatura latina clássica datada</option>
-								<option>Sua indubitável origem</option>
-							</select>
-						</div>
+
 						<div class="form-group">
 							<textarea placeholder="Mensagem" name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
 						</div>
