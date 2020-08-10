@@ -70,7 +70,7 @@
 <script async data-id="55962" src="https://cdn.widgetwhats.com/script.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-<script src="assets/js/pagination.js"></script>
+<!-- <script src="assets/js/pagination.js"></script> -->
 
 <!-- Script to Maps -->
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.2/build/ol.js"></script>
@@ -87,10 +87,16 @@
 			zoom: 4
 		})
 	});
+
+	// $.fn.datepicker.defaults.format = "dd/mm/yyyy";
+	$('.datepicker').datepicker({
+    format: 'dd/mm/yyyy',
+    startDate: '-3d'
+});
 </script>
 
 
-<script>
+<!-- <script>
 	$(function(){
 
 		function createList(name){
@@ -186,7 +192,7 @@
 		"logo":"assets/images/duracell-logo-1536x512.png"}
 		]};
 	</script>
-
+ -->
 </body>
 </html>
 

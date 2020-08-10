@@ -73,10 +73,10 @@
 				<h3><span></span></h3>
 
 				<ul class="details-basic">
-					<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-					<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-					<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-					<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+					<li><i class="fa fa-home"></i>230km²</li>
+					<li><i class="fa fa-bed"></i>04</li>
+					<li><i class="fas fa-shower"></i>02</li>
+					<li><i class="fa fa-car"></i>02</li>
 				</ul>
 
 				<h3><span>Sobre o imóvel</span></h3>
@@ -349,11 +349,12 @@
 						</div>
 
 						<div class="form-row">
-							<div class="form-group col-md-6">
-								<input type="email" class="form-control" id="date" name="date" placeholder="Selecione uma data">
+
+							<div class="form-group col-md-6"><label for="">Selecione uma data:</label>
+								<input type="date" class="form-control" id="date" name="date" placeholder="Selecione uma data">
 							</div>
-							<div class="form-group col-md-6">
-								<input type="email" class="form-control" id="email" name="email" placeholder="Selecione um horário">
+							<div class="form-group col-md-6"><label for="">Selecione um horário:</label>
+								<input type="time" class="form-control" id="schedule" name="schedule" placeholder="Selecione um horário">
 							</div>
 						</div>
 

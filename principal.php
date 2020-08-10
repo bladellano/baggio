@@ -22,15 +22,12 @@
 
 			<ul class="list-group">
 				<li class="list-group-item"><a target="_blank" href="vendas.php">vendas</a></li>
-				<li class="list-group-item"><a target="_blank" href="pesquisa3.php">pesquisa3</a></li>
+				<li class="list-group-item"><a target="_blank" href="pesquisa3.php">pesquisa</a></li>
 				<li class="list-group-item"><a target="_blank" href="perfil-imovel.php">perfil-imovel</a></li>
 				<li class="list-group-item"><a target="_blank" href="locacoes.php">locacoes</a></li>
-				<li class="list-group-item"><a target="_blank" href="index.php">index</a></li>
-				<li class="list-group-item"><a target="_blank" href="home2.php">home2</a></li>
+				<li class="list-group-item"><a target="_blank" href="index.php">inicial</a></li>
+				<li class="list-group-item"><a target="_blank" href="home2.php">home</a></li>
 				<li class="list-group-item"><a target="_blank" href="contato.php">contato</a></li>
-				<li class="list-group-item"><a target="_blank" href="__footer.php">__footer</a></li>
-				<li class="list-group-item"><a target="_blank" href="__header.php">__header</a></li>
-			</ul>
 		</div>
 	</div>
 </body>
