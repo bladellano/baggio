@@ -1074,8 +1074,6 @@ nav .navbar-nav .nav-item{
 .section h3 {
 	height: 1px;
 	background-color: var(--cor-secundaria);
-	/*text-align: left;*/
-	/*margin-bottom: 15px;*/
 	font-weight: bold;
 	font-size: 20px;
 	color:var(--cor-primaria);
@@ -1089,7 +1087,6 @@ nav .navbar-nav .nav-item{
 	top: -0.7em;
 	padding: 0 2px;
 	padding-right: 8px;
-	/*text-decoration: uppercase;*/
 }
 
 .section h3 i.fas {
@@ -1155,7 +1152,7 @@ footer {
 	margin:10px;
 }
 
-/* right */
+/* Footer Right */
 .menu-footer-right {
 	padding:8px;
 }
