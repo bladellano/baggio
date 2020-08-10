@@ -8,7 +8,7 @@ Frontend desenvolvido para o projeto do novo site da Baggio.
 * Slick-carousel 1.8.1
 
 #### Instalação das dependências
-Em um terminal de comandos digite: ```bash~ bower install```
+Em um terminal de comandos digite: ```~ bower install```
 > ATENÇAO: Os passos para instalação descritos nesta documentação, assumem que sua estação tenha o Node instalado.
 
 ### Creditos
