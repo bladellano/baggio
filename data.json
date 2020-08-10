@@ -1,0 +1,52 @@
+{"items":[
+	{
+		"distance": "400m",
+		"schedule": "08hhs as 23h",
+		"telephone": "00 0000-0000",
+		"website": "www.havainas.com.br",
+		"logo":"assets/images/logo_3170210.png"
+	},
+	{
+		"distance": "200m",
+		"schedule": "08hhs as 23h",
+		"telephone": "00 0000-0000",
+		"website": "www.drogaria.com.br",
+		"logo":"assets/images/logo_970530.png"
+	},
+	{
+		"distance": "100m",
+		"schedule": "08hhs as 10h",
+		"telephone": "00 0000-0000",
+		"website": "www.sorveteria.com.br",
+		"logo":"assets/images/kabum-logo.png"
+	},
+	{
+		"distance": "300m",
+		"schedule": "08hhs as 11h",
+		"telephone": "00 0000-0000",
+		"website": "www.redenorte.com.br",
+		"logo":"assets/images/duracell-logo-1536x512.png"
+	},
+	{
+		"distance": "300m",
+		"schedule": "08hhs as 12h",
+		"telephone": "00 0000-0000",
+		"website": "www.redenorte.com.br",
+		"logo":"assets/images/duracell-logo-1536x512.png"
+	},
+	{
+		"distance": "300m",
+		"schedule": "08hhs as 23h",
+		"telephone": "00 0000-0000",
+		"website": "www.redenorte.com.br",
+		"logo":"assets/images/duracell-logo-1536x512.png"
+	},
+	{
+		"distance": "300m",
+		"schedule": "08hhs as 23h",
+		"telephone": "00 0000-0000",
+		"website": "www.redenorte.com.br",
+		"logo":"assets/images/duracell-logo-1536x512.png"
+	}
+
+]}
