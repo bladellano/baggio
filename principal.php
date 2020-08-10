@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<style>
+		*{
+			
+		}
 		body{
 			background-color: var(--cor-primaria);
 			margin-top: 20px;
@@ -28,7 +31,7 @@
 				<li class="list-group-item"><a target="_blank" href="index.php">inicial</a></li>
 				<li class="list-group-item"><a target="_blank" href="home2.php">home</a></li>
 				<li class="list-group-item"><a target="_blank" href="contato.php">contato</a></li>
+			</div>
 		</div>
-	</div>
-</body>
-</html>
+	</body>
+	</html>

@@ -69,9 +69,6 @@
 <script	src="assets/js/main.js"></script>
 <script async data-id="55962" src="https://cdn.widgetwhats.com/script.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<!-- <script src="assets/js/pagination.js"></script> -->
-
 <!-- Script to Maps -->
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.2/build/ol.js"></script>
 <script type="text/javascript">
@@ -88,111 +85,8 @@
 		})
 	});
 
-	// $.fn.datepicker.defaults.format = "dd/mm/yyyy";
-	$('.datepicker').datepicker({
-    format: 'dd/mm/yyyy',
-    startDate: '-3d'
-});
 </script>
 
-
-<!-- <script>
-	$(function(){
-
-		function createList(name){
-
-			var container = $('#pagination-' + name);
-
-			var options = {
-
-				dataSource: establishments,
-				totalNumber: 2,
-				pageSize: 3,
-				locator:"items",
-				callback: function(response, pagination){
-
-					var dataHtml = '<ul>';
-
-					$.each(response, function(index, item){
-						dataHtml += `<li><div class="wrap-result-itens">
-						<div><img src="${item.logo}"></div>
-						<div>
-						<b>Distância: </b>${item.distance}<br/>
-						<b>Horário de Funcionamento: </b>${item.schedule}<br/>
-						<b>Telefone:</b> ${item.telephone}<br/>
-						<b>Website:</b> ${item.website}<br/>
-						</div>
-						</div><li>`;
-					});
-
-					dataHtml += '</ul>';
-
-					container.prev().html(dataHtml);
-				}
-			};
-
-			container.pagination(options);
-
-			return container;
-		}
-
-		createList('filtered-interest');
-
-	});
-
-	//Data Example
-	var establishments  = {"items":[
-	{
-		"distance": "400m",
-		"schedule": "08hs as 23h",
-		"telephone": "00 0000-0000",
-		"website": "www.havainas.com.br",
-		"logo":"assets/images/logo_3170210.png"
-	},
-	{
-		"distance": "200m",
-		"schedule": "08hs as 23h",
-		"telephone": "00 0000-0000",
-		"website": "www.drogaria.com.br",
-		"logo":"assets/images/logo_970530.png"
-	},
-	{
-		"distance": "100m",
-		"schedule": "08hhs as 10h",
-		"telephone": "00 0000-0000",
-		"website": "www.sorveteria.com.br",
-		"logo":"assets/images/kabum-logo.png"
-	},
-	{
-		"distance": "300m",
-		"schedule": "08hs as 11h",
-		"telephone": "00 0000-0000",
-		"website": "www.redenorte.com.br",
-		"logo":"assets/images/duracell-logo-1536x512.png"
-	},
-	{
-		"distance": "300m",
-		"schedule": "08hs as 12h",
-		"telephone": "00 0000-0000",
-		"website": "www.redenorte.com.br",
-		"logo":"assets/images/duracell-logo-1536x512.png"
-	},
-	{
-		"distance": "300m",
-		"schedule": "08hs as 23h",
-		"telephone": "00 0000-0000",
-		"website": "www.redenorte.com.br",
-		"logo":"assets/images/duracell-logo-1536x512.png"
-	},
-	{
-		"distance": "300m",
-		"schedule": "08hs as 23h",
-		"telephone": "00 0000-0000",
-		"website": "www.redenorte.com.br",
-		"logo":"assets/images/duracell-logo-1536x512.png"}
-		]};
-	</script>
- -->
 </body>
 </html>
 

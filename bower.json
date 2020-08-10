@@ -1,9 +1,9 @@
 {
-  "name": "A BAGGIO",
+  "name": "Dellano Sites",
   "authors": [
     "Caio Nunes <bladellano@gmail.com>"
   ],
-  "description": "Site A BAGGIO",
+  "description": "Frontend para o site da Baggio",
   "main": "index.php",
   "license": "MIT",
   "homepage": "",

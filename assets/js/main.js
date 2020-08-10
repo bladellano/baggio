@@ -17,17 +17,6 @@ $(function(){
 	$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
 		" - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
-
-	/* Validando ainda...  */
-	window.onresize = ()=>{
-		if (window.innerWidth <= 576) {
-			// $('.wrap-result > ul').addClass(['slick-card-spotlight','slick-initialized','slick-slider','slick-dotted']);   
-		} else {
-			// $('.wrap-result > ul').removeClass('slick-card-spotlight');
-		}
-	}
-
-	
 	window.onscroll = () => {
 
 		/* Fixed Topo */		
@@ -138,8 +127,8 @@ function execmascara(){
 	v_obj.value=v_fun(v_obj.value)
 }
 function mtel(v){
-    v=v.replace(/\D/g,""); 
-    v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); 
-    v=v.replace(/(\d)(\d{4})$/,"$1-$2"); 
-    return v;
+	v=v.replace(/\D/g,""); 
+	v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); 
+	v=v.replace(/(\d)(\d{4})$/,"$1-$2"); 
+	return v;
 }
