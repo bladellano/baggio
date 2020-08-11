@@ -267,6 +267,14 @@
 	max-width: 100%;
 	margin:0 auto;
 }
+
+.list-itens-results li .wrap-image-result:hover{
+	box-shadow: 3px 3px 8px #777;
+	cursor: pointer;
+}
+.list-itens-results li .wrap-image-result{
+	transition: .3s;
+}
 .list-itens-results li{
 	flex: 1 1 200px;
 	text-align: center;
@@ -275,16 +283,21 @@
 .wrap-image-result {
 	max-width: 200px;
 	height: 200px;
-	background-image: url(../images/loose.jpg);
 	background-position: center left;	
 	position: relative;
 	border-radius: 10px 0px 0px 10px;
 	margin-bottom: 20px;
 }
 
-/* Here add item background */
-.wrap-image-result.add-background {
-	background-image: url(../images/loose.jpg);
+/* Background */
+.wrap-image-result.bg-loose {
+	background-image: url(../images/loose.jpg);	
+}
+.wrap-image-result.bg-street {
+	background-image: url(../images/street.jpg);	
+}
+.wrap-image-result.bg-maps {
+	background-image: url(../images/bg-maps.jpg);	
 }
 
 .wrap-image-result .wrap-bg {
@@ -1094,6 +1107,13 @@ nav .navbar-nav .nav-item{
 	right: 0;
 	top: -10px;
 	background: #FFF;
+}
+
+.property-details a[data-toggle="collapse"] i.fas{
+	transition: .3s transform ease-in-out;
+}
+.property-details a[aria-expanded="true"] i.fas{
+	transform: rotate(90deg);
 }
 
 /* Transition */

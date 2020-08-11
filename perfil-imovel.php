@@ -11,7 +11,7 @@
 			
 			<ul class="list-itens-results">
 				<li>					
-					<div class="wrap-image-result">
+					<div class="wrap-image-result bg-loose">
 						<div class="wrap-bg">
 							<i class="fas fa-recycle"></i>
 							<p>360º</p>					
@@ -19,7 +19,7 @@
 					</div>
 				</li>
 				<li>					
-					<div class="wrap-image-result">
+					<div class="wrap-image-result bg-street">
 						<div class="wrap-bg">
 							<i class="fas fa-play"></i>
 							<p>Video</p>					
@@ -28,7 +28,7 @@
 				</li>
 
 				<li>					
-					<div class="wrap-image-result">
+					<div class="wrap-image-result bg-maps">
 						<div class="wrap-bg">
 							<i class="fas fa-map-marker-alt"></i>
 							<p>Mapa</p>					
@@ -36,7 +36,7 @@
 					</div>
 				</li>
 				<li>					
-					<div class="wrap-image-result">
+					<div class="wrap-image-result bg-street">
 						<div class="wrap-bg">
 							<i class="fas fa-female"></i>
 							<p>Rua</p>					
@@ -44,7 +44,7 @@
 					</div>
 				</li>
 				<li>					
-					<div class="wrap-image-result">
+					<div class="wrap-image-result bg-loose">
 						<div class="wrap-bg">
 							<i class="far fa-images"></i>
 							<p>5 Fotos</p>					
@@ -335,7 +335,10 @@
 				</table>
 				<a href="#">Ver todas as taxas</a> <i class="fa fa-arrow-right"></i>
 
-				<a href="#" data-toggle="collapse" data-target="#agendar-visita" class="btn btn-outline-light btn-block">AGENDAR VISITA</a>
+				<a href="#" data-toggle="collapse" data-target="#agendar-visita" class="btn btn-outline-light btn-block">
+					AGENDAR VISITA
+					<i class="fas fa-caret-right"></i>
+				</a>
 				
 				<div id="agendar-visita" class="collapse">
 
@@ -349,7 +352,6 @@
 						</div>
 
 						<div class="form-row">
-
 							<div class="form-group col-md-6"><label for="">Selecione uma data:</label>
 								<input type="date" class="form-control" id="date" name="date" placeholder="Selecione uma data">
 							</div>

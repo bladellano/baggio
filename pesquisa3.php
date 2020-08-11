@@ -224,9 +224,9 @@
 		<!-- II Part -->
 		<div class="col-md-8">
 
-			<div class="wrap-result">
-				<!-- <ul class="slick-card-spotlight"> -->
-				<ul class="">
+			<div class="wrap-result section">
+				<h3><span>2667 Imóveis encontrados</span></h3>
+				<ul>
 					<li>						
 						<div class="card-spotlight">
 							<img src="assets/images/loose.jpg" alt="title">
