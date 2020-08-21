@@ -48,35 +48,35 @@
 				<ul class="card-benefits">
 					<li>
 						<div>
-							<i class="fa fa-home"></i>
+							<img class="icon-location" src="assets/images/digital.png" alt="">
 							<h4>Inovação</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum is simply</p>
 						</div>
 					</li>
 					<li>
 						<div>
-							<i class="fas fa-shield-alt"></i>
+							<img class="icon-location" src="assets/images/shield.png" alt="">
 							<h4>Segurança</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum is simply</p>
 						</div>
 					</li>
 					<li>
 						<div>
-							<i class="fas fa-peace"></i>
+							<img class="icon-location" src="assets/images/yoga.png" alt="">
 							<h4>Facilidade</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum is simply</p>
 						</div>
 					</li>
 					<li>
 						<div>
-							<i class="fas fa-sitemap"></i>
+							<img class="icon-location" src="assets/images/process.png" alt="">
 							<h4>Organização</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum is simply</p>
 						</div>
 					</li>
 					<li>
 						<div>
-							<i class="fas fa-file-invoice-dollar"></i>
+							<img class="icon-location" src="assets/images/analysis.png" alt="">
 							<h4>Cobranças e Pagamentos</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum is simply</p>
 						</div>

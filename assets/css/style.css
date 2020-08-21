@@ -566,7 +566,7 @@
 }
 .bg-newsletter h3{
 	height: 0px!important;
-	margin-bottom: 26px!important;
+	margin-bottom: 50px!important;
 }
 
 /* Map */
@@ -1077,6 +1077,10 @@ nav .navbar-nav .nav-item{
 	margin-top: -5px;
 	width: 100%;
 }
+.section img.icon-location{
+	width:auto;
+	height: 70px;
+}
 .section h5 {
 	font-weight: bold;
 	font-size: 20px;
@@ -1084,6 +1088,7 @@ nav .navbar-nav .nav-item{
 	letter-spacing: -1px;
 	margin: 20px 0px;
 }
+ 
 .section h3 {
 	height: 1px;
 	background-color: var(--cor-secundaria);
@@ -1174,7 +1179,7 @@ footer {
 
 /* Footer Right */
 .menu-footer-right {
-	padding:8px;
+	padding:8px 0px;
 }
 .menu-footer-right h4 {
 	font-weight: bold;
