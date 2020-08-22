@@ -1,74 +1,9 @@
 <?php require("__header.php"); ?>
 
-<style>
-
-	.wrap-general{
-		max-width: 94%;
-		margin: 0 auto;
-		position: relative;
-	}
-	.mapColapse{
-		background-color:#88c0d0;
-		width:30%;
-		height: auto;
-		transition: all .4s;
-		position: relative;
-	}
-	.mapColapse > a#btnExpandMap{
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		margin: 4px;
-
-		border-radius: 4px;
-		padding: 2px 10px;
-		background: var(--cor-primaria);
-		color: #FFF;
-		font-size: 24px;
-	}
-	.filter{
-		width: 30%;
-		height: 100%;/*Correspondentes*/
-	}
-	.result{
-		height: 100%;  
-		width:70%;
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		transition: all .4s;
-		padding:0px 10px;
-	}
-	.activeMap{
-		width:100%;
-	}
-	.activeResult{
-		height: 0px;/*Correspondentes - Iguala dinamicamente com altura do .filter via JS*/ 
-	}
-
-	@media (max-width: 512px) {
-		.result{
-			position: relative;
-			width: 98%;
-		}
-		.filter{
-			width: 98%;				
-		}
-		.mapColapse{
-			display: none;
-		}
-	}
-</style>
-
 <ol class="breadcrumb">
 	<li class="breadcrumb-item"><a href="#">Home</a></li>
 	<li class="breadcrumb-item active" aria-current="page">Resultado de Pesquisa</li>
 </ol>
-
-
-
-
-
 
 <div class="wrap-general">
 	<div class="mapColapse">
@@ -396,9 +331,11 @@
 				</li>
 
 			</ul>
+		</div><!-- wrap-result section -->
+		<div class="container">				
+			<button class="btn btn-default btn-baggio btn-block">Carregar mais</button>
 		</div>
-
-	</div>
+	</div><!-- result -->
 </div>
 
 <?php require("__footer.php") ?>
