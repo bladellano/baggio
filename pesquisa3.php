@@ -7,11 +7,27 @@
 
 <div class="wrap-general">
 	<div class="mapColapse">
+
+
+		<div id="map-of-interest" style="display:none">
+			<div class="btn-close">x</div> 
+			<h3>MAPA DE INTERESSE</h3> 
+			<p>Você pode utilizar nossa ferramenta de Bezier para desenhar uma região onde você queira encontrar novos imóveis.</p>
+			<a class="btnNode"> <img src="assets/images/node.png"> </a>
+		</div>
+
+
 		<div id="map" class="map"></div>
 		<a href="#" id="btnExpandMap">
 			<i class="fas fa-expand-arrows-alt"></i>
 			<i class="fas fa-compress-arrows-alt" style="display: none"></i>
 		</a>
+
+		<div class="wrap-btn-node" style="display: none">			
+			<a href="#" class="btnNode"> 
+				<img src="assets/images/node.png"> 
+			</a>
+		</div>
 
 	</div>
 	<div class="filter">

@@ -61,9 +61,87 @@
 </div> <!-- CONTAINER-FLUID -->
 
 <div class="container-fluid">
-	<div class="row">
+	<div class="row flex-row-reverse">
+
 		<div class="col-md-6">
-			
+
+			<div class="property-details">
+				<h4>BG0000000000</h4>
+				<table class="table">
+					<tr>
+						<td>Aluguel</td>
+						<td>R$ 1.800,00</td>
+					</tr>
+					<tr>
+						<td>IPTU</td>
+						<td>R$ 25,00</td>
+					</tr>
+					<tr>
+						<td>Condomínio</td>
+						<td>R$ 250,00</td>
+					</tr>
+					<tr>
+						<td>Total</td>
+						<td>R$ 2.705,00</td>
+					</tr>
+				</table>
+				<a href="#" data-toggle="collapse" data-target="#ver-todas-as-taxas">Ver todas as taxas <i class="fas fa-caret-right"></i></a> 
+				<div id="ver-todas-as-taxas" class="collapse">
+					<table class="table">
+						<tr>
+							<td>Seguro Incêndio</td>
+							<td>R$ 250,00</td>
+						</tr>
+						<tr>
+							<td>Taxa 2</td>
+							<td>R$ 250,00</td>
+						</tr>
+						<tr>
+							<td>Taxa 3</td>
+							<td>R$ 250,00</td>
+						</tr>
+						<tr>
+							<td>Total</td>
+							<td>R$ 2.705,00</td>
+						</tr>
+					</table>
+				</div>
+
+				<a href="#" data-toggle="collapse" data-target="#agendar-visita" class="btn btn-default btn-baggio btn-block">
+					AGENDAR VISITA
+				</a>
+				
+				<div id="agendar-visita" class="collapse">
+
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
+						</div>
+
+						<div class="form-group">
+							<input type="phone" class="form-control" id="phone" name="phone" placeholder="Telefone">
+						</div>
+
+						<div class="form-row">
+							<div class="form-group col-md-6"><label for="">Selecione uma data:</label>
+								<input type="date" class="form-control" id="date" name="date" placeholder="Selecione uma data">
+							</div>
+							<div class="form-group col-md-6"><label for="">Selecione um horário:</label>
+								<input type="time" class="form-control" id="schedule" name="schedule" placeholder="Selecione um horário">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<textarea placeholder="Mensagem" name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
+						</div>
+						<button type="submit" class="btn btn-sm btn-baggio btn-block">AGENDAR VISITA</button>
+					</form>
+				</div>	
+
+			</div>
+
+		</div>
+		<div class="col-md-6">			
 			<div class="section full-info-property">
 				
 				<h5>Apartamento, Apê Azul, Curitiba</h5>
@@ -183,8 +261,7 @@
 
 						</ul>
 					</div>
-					<!-- <div class="data-container"></div> -->
-					<!-- <div id="pagination-filtered-interest"></div> --> 
+
 				</div>
 
 				<ul class="pagination-buttons">
@@ -309,67 +386,8 @@
 
 			</div><!-- full-info-property -->
 
-
 		</div>
-		<div class="col-md-6">
 
-			<div class="property-details">
-				<h4>BG0000000000</h4>
-				<table class="table">
-					<tr>
-						<td>Aluguel</td>
-						<td>R$ 1.800,00</td>
-					</tr>
-					<tr>
-						<td>IPTU</td>
-						<td>R$ 25,00</td>
-					</tr>
-					<tr>
-						<td>Condomínio</td>
-						<td>R$ 250,00</td>
-					</tr>
-					<tr>
-						<td>Total</td>
-						<td>R$ 2.705,00</td>
-					</tr>
-				</table>
-				<a href="#">Ver todas as taxas</a> <i class="fa fa-arrow-right"></i>
-
-				<a href="#" data-toggle="collapse" data-target="#agendar-visita" class="btn btn-outline-light btn-block">
-					AGENDAR VISITA
-					<i class="fas fa-caret-right"></i>
-				</a>
-				
-				<div id="agendar-visita" class="collapse">
-
-					<form>
-						<div class="form-group">
-							<input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
-						</div>
-
-						<div class="form-group">
-							<input type="phone" class="form-control" id="phone" name="phone" placeholder="Telefone">
-						</div>
-
-						<div class="form-row">
-							<div class="form-group col-md-6"><label for="">Selecione uma data:</label>
-								<input type="date" class="form-control" id="date" name="date" placeholder="Selecione uma data">
-							</div>
-							<div class="form-group col-md-6"><label for="">Selecione um horário:</label>
-								<input type="time" class="form-control" id="schedule" name="schedule" placeholder="Selecione um horário">
-							</div>
-						</div>
-
-						<div class="form-group">
-							<textarea placeholder="Mensagem" name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
-						</div>
-						<button type="submit" class="btn btn-sm btn-baggio btn-block">AGENDAR VISITA</button>
-					</form>
-				</div>	
-
-			</div>
-
-		</div>
 	</div>
 </div>
 

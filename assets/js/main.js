@@ -1,5 +1,17 @@
  $(function(){
 
+ 	$('a[data-target="#agendar-visita"]').click(function(e) {
+ 		$(this).hide();
+ 	});
+
+ 	$('a.btnNode').click(function(e) {
+ 		$(this).toggleClass('active');
+ 	});
+
+ 	$('.btn-close').click(function(e) {
+ 		$('#map-of-interest').fadeOut();
+ 	});
+
  	renderMap();
 
  	$("#btnExpandMap").click(function() {
@@ -10,12 +22,16 @@
  			$('.result').css('height','100%');
  			$('.fas.fa-expand-arrows-alt').show();
  			$('.fas.fa-compress-arrows-alt').hide();
+ 			$('.wrap-btn-node').fadeOut();
+ 			$('#map-of-interest').fadeOut();
  			
  		} else {
 
  			$('.result').css('height',$('.filter').height());
  			$('.fas.fa-expand-arrows-alt').hide();
  			$('.fas.fa-compress-arrows-alt').show();
+ 			$('.wrap-btn-node').fadeIn();
+ 			$('#map-of-interest').fadeIn();
  		}
 
  		refreshMap();
@@ -163,6 +179,7 @@
  		$('.mapColapse').append('<div id="map" class="map"></div>');
  		renderMap();
  		$('#btnExpandMap').css('z-index','999');
+ 		$('.wrap-btn-node').css('z-index','998');
  	},500);
  }
 
