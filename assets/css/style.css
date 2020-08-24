@@ -432,6 +432,7 @@
 	.wrap-result ul li{
 		margin-top: 20px;
 		padding: 0px 25px;
+		/*flex: 1 1 min-content;*/
 	}
 
 	/* Options of Numbers */
@@ -1294,7 +1295,16 @@
 	/*    Devices Mobile    */
 	/*======================*/
 
+	/*I - breakpoint*/
+	@media (max-width: 867px) { 
+		.wrap-result ul li{
+			flex: 1 1 min-content;
+		}
+	}
+	
+	/*II - breakpoint*/
 	@media (max-width: 576px) {
+
 
 		.result{
 			position: relative;

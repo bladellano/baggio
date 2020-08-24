@@ -22,7 +22,6 @@
 	<!-- Jquery UI - Range -->
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	
-	<!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
 	<!-- End - Jquery UI - Range -->
 	
 	<link rel="stylesheet" href="assets/css/style.css">
