@@ -40,7 +40,7 @@
 				<div class="slick-card-spotlight">
 
 					<div class="card-spotlight">
-						<img src="assets/images/loose.jpg" alt="title">
+						<img class="img-fluid" src="assets/images/loose.jpg" alt="title">
 						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
@@ -56,7 +56,7 @@
 
 
 					<div class="card-spotlight">
-						<img src="assets/images/loose.jpg" alt="title">
+						<img class="img-fluid" src="assets/images/loose.jpg" alt="title">
 						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
@@ -101,7 +101,7 @@
 					</div>
 
 					<div class="card-spotlight">
-						<img src="assets/images/loose.jpg" alt="title">
+						<img class="img-fluid" src="assets/images/loose.jpg" alt="title">
 						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
@@ -116,7 +116,7 @@
 					</div>
 
 					<div class="card-spotlight">
-						<img src="assets/images/loose.jpg" alt="title">
+						<img class="img-fluid" src="assets/images/loose.jpg" alt="title">
 						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
@@ -135,7 +135,7 @@
 	</div>
 
 	<div class="section">
-		<img src="assets/images/banner-home.png" alt="">
+		<img src="assets/images/banner-home.png" alt="banner-home" class="img-fluid">
 	</div>
 
 	
@@ -210,7 +210,7 @@
 	<div class="section">
 		<div class="row">
 			<div class="col-md-6">
-				<img src="assets/images/bg-left-bathroom.jpg" alt="">
+				<img src="assets/images/bg-left-bathroom.jpg" alt="bathroom" class="img-fluid">
 			</div>
 			<div class="col-md-6 bg-newsletter">
 				<form action="">
