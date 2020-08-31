@@ -1297,7 +1297,7 @@
 	/*======================*/
 
 	/*I - breakpoint*/
-	@media (max-width: 867px) { 
+	@media (max-width: 992px) { 
 		.wrap-result ul li{
 			flex: 1 1 54px;
 		}
@@ -1305,8 +1305,6 @@
 	
 	/*II - breakpoint*/
 	@media (max-width: 576px) {
-
-
 		.result{
 			position: relative;
 			width: 98%;
