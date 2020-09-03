@@ -857,8 +857,13 @@
 
 	/* Partners Slick */
 
-	.partners-slick img{
-		max-height: 130px;
+	.partners-slick div{
+		display: flex;
+		align-items: center;
+	}
+	.partners-slick div img{
+		max-width: 136px;
+		margin:0 auto;
 	}
 
 	/* Slick */
@@ -1302,7 +1307,7 @@
 			flex: 1 1 54px;
 		}
 	}
-	
+
 	/*II - breakpoint*/
 	@media (max-width: 576px) {
 		.result{

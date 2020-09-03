@@ -136,13 +136,28 @@
 		<h3><span>PARCEIROS</span></h3>
 		<div class="row">
 			<div class="col-xs-12 offset-md-1 col-md-10">
-				<div class="partners-slick">						
+				<div class="partners-slick">	
+
+
+					<div><img src="assets/images/clients/bosch.png"></div>
+					<div><img src="assets/images/clients/brf.gif"></div>
+					<div><img src="assets/images/clients/callfarma.png"></div>
+					<div><img src="assets/images/clients/droga_raia.png"></div>
+					<div><img src="assets/images/clients/petrobras.gif"></div>
+					<div><img src="assets/images/clients/sonosul.JPG"></div>
+					<!-- <div><img src="assets/images/clients/renner.png"></div> -->
+					<div><img src="assets/images/clients/volvo.jpg"></div>
+					<div><img src="assets/images/clients/magazine-luiza.png"></div>
+<!-- 
+
 					<div><img src="assets/images/logo_3170210.png"></div>
 					<div><img src="assets/images/logo_970530.png"></div>
 					<div><img src="assets/images/denver-broncos-logo-1536x1226.png"></div>
 					<div><img src="assets/images/banco-bv-logo-1536x1084.png"></div>
 					<div><img src="assets/images/duracell-logo-1536x512.png"></div>
 					<div><img src="assets/images/kabum-logo.png"></div>
+ -->
+
 				</div>
 			</div>
 		</div>
