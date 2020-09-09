@@ -135,7 +135,20 @@
 	</div>
 
 	<div class="section">
-		<img src="assets/images/banner-home.png" alt="banner-home" class="img-fluid">
+		<!-- <a href=""><img src="assets/images/banner-home.png" alt="banner-home" class="img-fluid"></a> -->
+		
+		<div class="banner-key">
+			<article>
+				<h4>Quer vender seu imóvel?</h4>
+				<p class="text-white">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae perspiciatis libero accusamus quod, odit voluptas veritatis quos voluptates perferendis, velit molestiae, culpa consectetur cumque at alias vel maiores assumenda ipsum.</p>
+			</article>
+
+			<div>
+				
+				<a href="#" class="btn btn-default btn-baggio">ANUNCIAR MEU IMÓVEL</a>
+			</div>
+		</div>
 	</div>
 
 	

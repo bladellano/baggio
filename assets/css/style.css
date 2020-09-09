@@ -17,6 +17,34 @@
 	width: 96%;
 }
 
+/* Banner Key */
+.banner-key{
+	border-radius: 6px;
+	height: 220px;
+	padding: 42px 176px 0px 318px;
+	background-image: url(../images/bg-key.jpg);	
+	display: flex;
+}
+.banner-key article{
+	width: 70%;
+	padding:0px 20px;
+}
+.banner-key div{
+	width: 30%;
+	justify-content: center;
+	align-content: center;
+	display: inline-grid;
+	margin-bottom: 32px;
+}
+.banner-key article p{
+	font-size: 14px;
+}
+.banner-key article h4{
+	font-size: 26px;
+	color:#FFF;
+	font-weight: bold;
+}
+
 /* Mapa de Interesse */
 
 #map-of-interest{
@@ -1306,10 +1334,25 @@
 		.wrap-result ul li{
 			flex: 1 1 54px;
 		}
+		.banner-key{
+			padding:6px;
+			display: grid;
+		}
+		.banner-key div {
+			width: auto;
+		}
 	}
 
 	/*II - breakpoint*/
 	@media (max-width: 576px) {
+		.banner-key article p{
+			display: none;
+		}
+		.banner-key article {
+			text-align: center;
+			width:auto;
+			padding-top: 20px;
+		}
 		.result{
 			position: relative;
 			width: 98%;
