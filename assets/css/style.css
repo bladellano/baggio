@@ -1341,10 +1341,15 @@
 		.banner-key div {
 			width: auto;
 		}
+
 	}
 
 	/*II - breakpoint*/
 	@media (max-width: 576px) {
+
+		.property-details{
+			top:0!important;
+		}
 		.banner-key article p{
 			display: none;
 		}

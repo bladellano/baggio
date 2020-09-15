@@ -72,6 +72,21 @@
  		} else {
  			$('.main-title-sales').css('top','absolute');
  		}
+
+ 		/* Main Title Sales */
+
+ 		if (window.pageYOffset > 300) {
+ 			$('.property-details').css({
+ 				'position':'relative',
+ 				'top':(window.pageYOffset - 200) +'px'
+ 			});
+ 		} else {
+
+ 			$('.property-details').css({
+ 				'position':'inherit',
+ 				'top':'0'
+ 			});
+ 		}
  	}
 
  	/* Slick Card Spotlight */
