@@ -1119,6 +1119,7 @@
 		text-align: center;
 		font-size: 14px;
 		color:var(--cor-primaria);
+		word-wrap:  break-word;
 	}
 	.card-spotlight ul li a:hover{
 		text-decoration: none;
