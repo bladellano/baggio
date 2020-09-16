@@ -102,6 +102,7 @@
 	max-width: 94%;
 	margin: 0 auto;
 	position: relative;
+	/*height: 2200px;*/
 }
 .mapColapse{
 	background-color:#88c0d0;
@@ -125,7 +126,7 @@
 
 .filter{
 	width: 30%;
-	height: 100%;/*Correspondentes*/
+	/*height: 1480px;*/ 
 }
 .result{
 	height: 100%;  
@@ -135,6 +136,9 @@
 	bottom: 0;
 	transition: all .4s;
 	padding:0px 10px;
+	top:0;
+	/*height: 1480px;*/ 
+	/*background-color: red;*/
 }
 .activeMap{
 	width:100%;
@@ -1119,6 +1123,8 @@
 		text-align: center;
 		font-size: 14px;
 		color:var(--cor-primaria);
+	}
+	.card-spotlight.break-information ul li{
 		word-wrap:  break-word;
 	}
 	.card-spotlight ul li a:hover{
@@ -1365,7 +1371,8 @@
 			margin-bottom: 20px;
 		}
 		.filter{
-			width: 98%;				
+			width: 98%;	
+			height: auto!important;			
 		}
 		.mapColapse{
 			display: none;

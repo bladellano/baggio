@@ -12,22 +12,31 @@
  		$('#map-of-interest').fadeOut();
  	});
 
- 	renderMap();
+ 	renderMap();/* Atualiza o mapa na tela. */
+
+	updateHeightFilter(); /* Atualiza a altura do filtro ao lado. */
+
+	const heightFilter = $('.filter').height(); /* Pega altura atual */
+
+	$(window).resize(function() { /* Atualiza a altura do filtro quando redimensionada a janela. */
+		updateHeightFilter(heightFilter);
+	});
 
  	$("#btnExpandMap").click(function() {
 
  		/* Alterna os botões de expandir */
  		if($(".mapColapse").hasClass('activeMap')){
 
- 			$('.result').css('height','100%');
+ 			updateHeightFilter(heightFilter);
+ 			$('.result').css('height','100%')
  			$('.fas.fa-expand-arrows-alt').show();
  			$('.fas.fa-compress-arrows-alt').hide();
  			$('.wrap-btn-node').fadeOut();
  			$('#map-of-interest').fadeOut();
  			
  		} else {
-
- 			$('.result').css('height',$('.filter').height());
+ 			updateHeightFilter();
+ 			$('.result').css('height',$('.filter').height()).css('top','auto');
  			$('.fas.fa-expand-arrows-alt').hide();
  			$('.fas.fa-compress-arrows-alt').show();
  			$('.wrap-btn-node').fadeIn();
@@ -172,6 +181,18 @@
  	});
 
  });
+
+ function updateHeightFilter(_height){
+
+ 	let diference = 400;
+ 	let height = _height || $(document).height();
+
+ 	if(_height) {
+ 		$('.filter').css('height', height+'px');
+ 	} else {
+ 		$('.filter').css('height', height - diference+'px');
+ 	}
+ }
 
  function mascara(o,f){
  	v_obj=o
