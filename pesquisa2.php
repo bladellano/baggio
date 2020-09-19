@@ -242,9 +242,7 @@
 
 		<div class="wrap-result section">
 
-
-			<h3><span>2667 Imóveis encontrados</span></h3> <!-- FOCO -->
-
+			<h3><span>2667 Imóveis encontrados</span></h3> 
 
 			<ul>
 				<li>						
@@ -254,10 +252,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li style="word-wrap:normal"><i class="fa fa-home"></i>0 m²</li>
+							<li><i class="fa fa-bed"></i>0</li>
+							<li><i class="fas fa-shower"></i>0</li>
+							<li><i class="fa fa-car"></i>0</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -270,10 +268,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -286,27 +284,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
-						</ul>
-						<hr>
-						<p class="card-spotlight-price">R$ 4.500,00</p>
-					</div>
-				</li>
-
-				<li>						
-					<div class="card-spotlight">
-						<img src="assets/images/loose.jpg" alt="title">
-						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
-						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
-						<hr>
-						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -320,10 +301,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -337,10 +318,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -354,16 +335,15 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
 					</div>
 				</li>
-
 
 				<li>						
 					<div class="card-spotlight">
@@ -372,10 +352,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -390,10 +370,28 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
+						</ul>
+						<hr>
+						<p class="card-spotlight-price">R$ 4.500,00</p>
+					</div>
+				</li>
+
+
+				<li>						
+					<div class="card-spotlight">
+						<img src="assets/images/loose.jpg" alt="title">
+						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
+						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
+						<hr>
+						<ul>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -406,10 +404,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -422,10 +420,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -438,10 +436,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -455,16 +453,16 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
 					</div>
 				</li>
-	
+
 				<li>						
 					<div class="card-spotlight">
 						<img src="assets/images/loose.jpg" alt="title">
@@ -472,10 +470,10 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
-							<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
-							<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
-							<li><a href="#"><i class="fa fa-car"></i></a>02</li>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
 						</ul>
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
@@ -485,7 +483,7 @@
 			</ul>
 		</div><!-- wrap-result section -->
 		<div class="container">				
-			<button class="btn btn-default btn-baggio btn-block">Carregar mais</button>
+			<button class="btn btn-default btn-baggio btn-block" id="btn-load-more">Carregar mais</button>
 		</div>
 	</div><!-- result -->
 </div>

@@ -102,7 +102,6 @@
 	max-width: 94%;
 	margin: 0 auto;
 	position: relative;
-	/*height: 2200px;*/
 }
 .mapColapse{
 	background-color:#88c0d0;
@@ -126,7 +125,6 @@
 
 .filter{
 	width: 30%;
-	/*height: 1480px;*/ 
 }
 .result{
 	height: 100%;  
@@ -137,14 +135,12 @@
 	transition: all .4s;
 	padding:0px 10px;
 	top:0;
-	/*height: 1480px;*/ 
-	/*background-color: red;*/
 }
 .activeMap{
 	width:100%;
 }
 .activeResult{
-	height: 0px;/*Correspondentes - Iguala dinamicamente com altura do .filter via JS*/ 
+	height: 0px; /*Correspondentes - Iguala dinamicamente com altura do .filter via JS*/ 
 }
 
 /* Full Info Property */
