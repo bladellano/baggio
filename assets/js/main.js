@@ -134,6 +134,10 @@
  			'position':'inherit',
  			'top':'0'
  		}).addClass('not-onscroll');
+
+ 		$('html, body').animate({
+ 			scrollTop: 200
+ 		}, 500);
  	});
 
  	/* Slick Card Spotlight */
@@ -256,7 +260,7 @@
  function execmascara(){
  	v_obj.value=v_fun(v_obj.value)
  }
- 
+
  function mtel(v){
  	v=v.replace(/\D/g,""); 
  	v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); 
