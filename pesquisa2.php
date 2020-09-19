@@ -252,7 +252,7 @@
 						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
 						<hr>
 						<ul>
-							<li><i class="fa fa-home"></i>0 m²</li>
+							<li><i class="fa fa-home"></i>0m²</li>
 							<li><i class="fa fa-bed"></i>0</li>
 							<li><i class="fas fa-shower"></i>0</li>
 							<li><i class="fa fa-car"></i>0</li>
