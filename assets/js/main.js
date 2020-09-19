@@ -57,7 +57,7 @@
 
  	$('#btn-load-more').click(function(e) {
 
- 		$('.wrap-result.section > ul').prepend(`<li>						
+ 	/*	$('.wrap-result.section > ul').prepend(`<li>						
  			<div class="card-spotlight">
  			<img src="assets/images/loose.jpg" alt="title">
  			<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
@@ -72,7 +72,8 @@
  			<hr>
  			<p class="card-spotlight-price">R$ 4.500,00</p>
  			</div>
- 			</li>`);
+ 			</li>`);*/
+ 			console.log('> Atualizou as medidas');
 
  		alignWrapResultWithFilter(diference);
 
