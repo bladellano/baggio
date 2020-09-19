@@ -12,15 +12,15 @@
  		$('#map-of-interest').fadeOut();
  	});
 
- 	renderMap();/* Atualiza o mapa na tela. */
+ 	renderMap();/* Atualiza o mapa na tela na parte superior */
 
- 	updateHeightFilter(); /* Atualiza a altura do filtro ao lado. */
+ 	updateHeightFilter(); /* Atualiza a altura do filtro. */
 
- 	const diference = ($('.wrap-result').height() - $('.filter').height());
+ 	const diference = ($('.wrap-result').height() - $('.filter').height()); /* Captura a diferença entre altura filter e altura wrap-result */
 
- 	const heightFilter = $('.filter').height(); /* Pega altura atual */
+ 	const heightFilter = $('.filter').height(); /* Pega altura atual do filter */
 
- 	$(window).resize(function(e) {
+ 	$(window).resize(function(e) { /* Quando redimensionada a janela as alturas são atualizadas */
  		alignWrapResultWithFilter(diference);
  	});
 
@@ -57,7 +57,7 @@
 
  	$('#btn-load-more').click(function(e) {
 
- 	/*	$('.wrap-result.section > ul').prepend(`<li>						
+ 		/*	$('.wrap-result.section > ul').prepend(`<li>						
  			<div class="card-spotlight">
  			<img src="assets/images/loose.jpg" alt="title">
  			<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
@@ -75,9 +75,9 @@
  			</li>`);*/
  			console.log('> Atualizou as medidas');
 
- 		alignWrapResultWithFilter(diference);
+ 			alignWrapResultWithFilter(diference);
 
- 	});
+ 		});
 
  	/* Jquery UI - Range */
 
@@ -112,21 +112,29 @@
  			$('.main-title-sales').css('top','absolute');
  		}
 
- 		/* Main Title Sales */
+ 		/* Box azul da tela perfil-imóvel */
 
  		if (window.pageYOffset > 300) {
- 			$('.property-details').css({
+ 			$('.property-details:not(.not-onscroll)').css({
  				'position':'relative',
- 				'top':(window.pageYOffset - 200) +'px'
+ 				'top':(window.pageYOffset - 200) +'px',
+ 				'z-index':'100'
  			});
  		} else {
-
- 			$('.property-details').css({
+ 			$('.property-details:not(.not-onscroll)').css({
  				'position':'inherit',
  				'top':'0'
  			});
  		}
  	}
+
+ 	/* Botao "AGENDAR VISITA", retira o efeito de fixed da box azul */
+ 	$('a[data-target="#agendar-visita"]').click(function(){
+ 		$('.property-details').css({
+ 			'position':'inherit',
+ 			'top':'0'
+ 		}).addClass('not-onscroll');
+ 	});
 
  	/* Slick Card Spotlight */
  	$('.slick-card-spotlight').slick({
@@ -182,6 +190,7 @@
  		}
  		]
  	});
+
  	/* Partners-slick */
 
  	$('.partners-slick').slick({
@@ -243,9 +252,11 @@
  	v_fun=f
  	setTimeout("execmascara()",1)
  }
+
  function execmascara(){
  	v_obj.value=v_fun(v_obj.value)
  }
+ 
  function mtel(v){
  	v=v.replace(/\D/g,""); 
  	v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); 
