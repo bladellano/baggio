@@ -1,5 +1,36 @@
  $(function(){
 
+ 	renderMap();/* Atualiza o mapa na tela na parte superior */
+
+ 	$('#btnExpandMap').click(function(e) {
+ 		$('.wrap').toggleClass('map-expanded');
+ 	});
+
+ 	$('#btn-load-more').click(function(){
+ 		/* RETIRAR SOMENTE ESTE APPEND, ESTÁ SÓ PRA TESTE. */
+ 		$('.wrap-result.section > ul').append(`<li>						
+					<div class="card-spotlight">
+						<img src="assets/images/loose.jpg" alt="title">
+						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
+						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
+						<hr>
+						<ul>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
+						</ul>
+						<hr>
+						<p class="card-spotlight-price">R$ 4.500,00</p>
+					</div>
+				</li>`);
+ 		/* ..ATÉ AQUI. */
+
+ 		$('html, body').animate({
+ 			scrollTop: $(document).height()
+ 		}, 500);
+ 	});
+
  	$('a[data-target="#agendar-visita"]').click(function(e) {
  		$(this).hide();
  	});
@@ -12,37 +43,19 @@
  		$('#map-of-interest').fadeOut();
  	});
 
- 	renderMap();/* Atualiza o mapa na tela na parte superior */
-
- 	updateHeightFilter(); /* Atualiza a altura do filtro. */
-
- 	const diference = ($('.wrap-result').height() - $('.filter').height()); /* Captura a diferença entre altura filter e altura wrap-result */
-
- 	const heightFilter = $('.filter').height(); /* Pega altura atual do filter */
-
- 	$(window).resize(function(e) { /* Quando redimensionada a janela as alturas são atualizadas */
- 		alignWrapResultWithFilter(diference);
- 	});
-
- 	$("#btnExpandMap").click(function() {
+  	$("#btnExpandMap").click(function() {
 
  		if($(".mapColapse").hasClass('activeMap')){
-
- 			updateHeightFilter(heightFilter);
- 			$('.result').css('height','100%')
  			$('.fas.fa-expand-arrows-alt').show();
  			$('.fas.fa-compress-arrows-alt').hide();
  			$('.wrap-btn-node').fadeOut();
  			$('#map-of-interest').fadeOut();
 
  		} else {
- 			updateHeightFilter();
- 			$('.result').css('height',$('.filter').height()).css('top','auto');
  			$('.fas.fa-expand-arrows-alt').hide();
  			$('.fas.fa-compress-arrows-alt').show();
  			$('.wrap-btn-node').fadeIn();
  			$('#map-of-interest').fadeIn();
-
  		}
 
  		refreshMap();
@@ -50,34 +63,6 @@
  		$(".mapColapse").toggleClass("activeMap");
  		$(".result").toggleClass("activeResult");
  	});
-
- 	/* =========================== */
- 	/* =======BTN LOAD MORE======= */
- 	/* =========================== */
-
- 	$('#btn-load-more').click(function(e) {
-
- 		/*	$('.wrap-result.section > ul').prepend(`<li>						
- 			<div class="card-spotlight">
- 			<img src="assets/images/loose.jpg" alt="title">
- 			<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
- 			<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
- 			<hr>
- 			<ul>
- 			<li><a href="#"><i class="fa fa-home"></i></a>230km²</li>
- 			<li><a href="#"><i class="fa fa-bed"></i></a>04</li>
- 			<li><a href="#"><i class="fas fa-shower"></i></a>02</li>
- 			<li><a href="#"><i class="fa fa-car"></i></a>02</li>
- 			</ul>
- 			<hr>
- 			<p class="card-spotlight-price">R$ 4.500,00</p>
- 			</div>
- 			</li>`);*/
- 			console.log('> Atualizou as medidas');
-
- 			alignWrapResultWithFilter(diference);
-
- 		});
 
  	/* Jquery UI - Range */
 
@@ -97,7 +82,6 @@
  		" - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
  	window.onscroll = () => {
-
  		/* Fixed Topo */		
  		if (window.pageYOffset > 100) {
  			$('.navbar').addClass('fixed-top');
@@ -111,9 +95,7 @@
  		} else {
  			$('.main-title-sales').css('top','absolute');
  		}
-
  		/* Box azul da tela perfil-imóvel */
-
  		if (window.pageYOffset > 300) {
  			$('.property-details:not(.not-onscroll)').css({
  				'position':'relative',
@@ -196,7 +178,6 @@
  	});
 
  	/* Partners-slick */
-
  	$('.partners-slick').slick({
  		infinite: true,
  		slidesToShow: 5,
@@ -224,32 +205,6 @@
  	});
 
  });
-
- function alignWrapResultWithFilter(dif){
-
- 	var heightWrapResult  = $('.wrap-result').height();
- 	var divResult = $('.result');
- 	var divFilter = $('.filter');
-
- 	if(divResult.hasClass('activeResult')){
- 		divFilter.css('height',heightWrapResult + dif +'px');
- 		divResult.css('height',heightWrapResult + dif +'px').css('top','auto');
- 	}else{
- 		divFilter.css('height',heightWrapResult - dif +'px');
- 	}
- }
-
- function updateHeightFilter(h){
-
- 	let diference = 400;
- 	let height = h || $(document).height();
-
- 	if(h) {
- 		$('.filter').css('height', height + 'px');
- 	} else {
- 		$('.filter').css('height', height - diference + 'px');
- 	}
- }
 
  function mascara(o,f){
  	v_obj=o
