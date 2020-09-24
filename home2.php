@@ -54,7 +54,6 @@
 						<p class="card-spotlight-price">R$ 4.500,00</p>
 					</div>	
 
-
 					<div class="card-spotlight break-information">
 						<img class="img-fluid" src="assets/images/loose.jpg" alt="title">
 						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>

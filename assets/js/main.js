@@ -9,31 +9,27 @@
  	$('#btn-load-more').click(function(){
  		/* RETIRAR SOMENTE ESTE APPEND, ESTÁ SÓ PRA TESTE. */
  		$('.wrap-result.section > ul').append(`<li>						
-					<div class="card-spotlight">
-						<img src="assets/images/loose.jpg" alt="title">
-						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
-						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
-						<hr>
-						<ul>
-							<li><i class="fa fa-home"></i>230km²</li>
-							<li><i class="fa fa-bed"></i>04</li>
-							<li><i class="fas fa-shower"></i>02</li>
-							<li><i class="fa fa-car"></i>02</li>
-						</ul>
-						<hr>
-						<p class="card-spotlight-price">R$ 4.500,00</p>
-					</div>
-				</li>`);
+ 			<div class="card-spotlight">
+ 			<img src="assets/images/loose.jpg" alt="title">
+ 			<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
+ 			<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
+ 			<hr>
+ 			<ul>
+ 			<li><i class="fa fa-home"></i>230km²</li>
+ 			<li><i class="fa fa-bed"></i>04</li>
+ 			<li><i class="fas fa-shower"></i>02</li>
+ 			<li><i class="fa fa-car"></i>02</li>
+ 			</ul>
+ 			<hr>
+ 			<p class="card-spotlight-price">R$ 4.500,00</p>
+ 			</div>
+ 			</li>`);
  		/* ..ATÉ AQUI. */
 
  		$('html, body').animate({
  			scrollTop: $(document).height()
  		}, 500);
- 	});
-
- 	$('a[data-target="#agendar-visita"]').click(function(e) {
- 		$(this).hide();
- 	});
+ 	}); 
 
  	$('a.btnNode').click(function(e) {
  		$(this).toggleClass('active');
@@ -43,7 +39,7 @@
  		$('#map-of-interest').fadeOut();
  	});
 
-  	$("#btnExpandMap").click(function() {
+ 	$("#btnExpandMap").click(function() {
 
  		if($(".mapColapse").hasClass('activeMap')){
  			$('.fas.fa-expand-arrows-alt').show();
@@ -99,7 +95,7 @@
  		if (window.pageYOffset > 300) {
  			$('.property-details:not(.not-onscroll)').css({
  				'position':'relative',
- 				'top':(window.pageYOffset - 200) +'px',
+ 				'top':(window.pageYOffset - 180) +'px',
  				'z-index':'100'
  			});
  		} else {
@@ -110,16 +106,28 @@
  		}
  	}
 
+ 	$('.btn-close-details').click(function(e) {
+ 		$('#agendar-visita').removeClass('show');
+ 		$('.property-details table,[data-target="#ver-todas-as-taxas"]').show();
+ 		$('a[data-target="#agendar-visita"]').show();
+ 		$(this).hide();
+ 	});
+
  	/* Botao "AGENDAR VISITA", retira o efeito de fixed da box azul */
  	$('a[data-target="#agendar-visita"]').click(function(){
- 		$('.property-details').css({
+ 		$('.btn-close-details').show();
+ 		$(this).hide();
+
+		/* $('.property-details').css({
  			'position':'inherit',
  			'top':'0'
- 		}).addClass('not-onscroll');
+ 		}).addClass('not-onscroll');*/
 
- 		$('html, body').animate({
+ 		$('.property-details table,[data-target="#ver-todas-as-taxas"]').hide();
+
+ 		/*	$('html, body').animate({
  			scrollTop: 200
- 		}, 500);
+ 		}, 500);*/
  	});
 
  	/* Slick Card Spotlight */
@@ -203,7 +211,7 @@
  		}
  		]
  	});
-
+ 
  });
 
  function mascara(o,f){

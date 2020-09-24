@@ -66,6 +66,7 @@
 		<div class="col-md-6">
 
 			<div class="property-details">
+				<span class="btn-close-details"><i class="fas fa-times"></i></span>
 				<h4>BG0000000000</h4>
 				<table class="table">
 					<tr>
@@ -132,7 +133,7 @@
 						</div>
 
 						<div class="form-group">
-							<textarea placeholder="Mensagem" name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
+							<textarea placeholder="Mensagem" name="message" id="message" cols="30" rows="3" class="form-control"></textarea>
 						</div>
 						<button type="submit" class="btn btn-sm btn-baggio btn-block">AGENDAR VISITA</button>
 					</form>
