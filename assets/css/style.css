@@ -367,7 +367,7 @@
 	height: auto;
 	background: #4E6480;
 	color: #FFF;
-	padding: 16px 30px;
+	padding: 6px 30px;
 	border-radius: 10px 0px 0px 10px;
 	float: right;
 	width: 70%;
@@ -1383,12 +1383,16 @@ footer {
 		;
 	}
 
+	.property-details table{
+		line-height: 14px;
+	}
 	.property-details{
 		position: fixed!important;
 		width: 100%;
 		bottom: 0!important;
 		top:auto!important;
 		z-index: 100;
+		opacity: .9;
 	}
 
 	.banner-key article p{

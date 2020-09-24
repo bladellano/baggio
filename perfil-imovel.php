@@ -68,7 +68,7 @@
 			<div class="property-details">
 				<span class="btn-close-details"><i class="fas fa-times"></i></span>
 				<h4>BG0000000000</h4>
-				<table class="table">
+				<table class="table table-sm">
 					<tr>
 						<td>Aluguel</td>
 						<td>R$ 1.800,00</td>
@@ -88,7 +88,7 @@
 				</table>
 				<a href="#" data-toggle="collapse" data-target="#ver-todas-as-taxas">Ver todas as taxas <i class="fas fa-caret-right"></i></a> 
 				<div id="ver-todas-as-taxas" class="collapse">
-					<table class="table">
+					<table class="table table-sm">
 						<tr>
 							<td>Seguro Incêndio</td>
 							<td>R$ 250,00</td>
@@ -108,7 +108,7 @@
 					</table>
 				</div>
 
-				<a href="#" data-toggle="collapse" data-target="#agendar-visita" class="btn btn-default btn-baggio btn-block">
+				<a href="#" data-toggle="collapse" data-target="#agendar-visita" class="btn btn-default btn-baggio btn-block btn-sm">
 					AGENDAR VISITA
 				</a>
 				
@@ -135,7 +135,7 @@
 						<div class="form-group">
 							<textarea placeholder="Mensagem" name="message" id="message" cols="30" rows="3" class="form-control"></textarea>
 						</div>
-						<button type="submit" class="btn btn-sm btn-baggio btn-block">AGENDAR VISITA</button>
+						<button type="submit" class="btn btn-sm btn-baggio btn-block btn-sm">AGENDAR VISITA</button>
 					</form>
 				</div>	
 
