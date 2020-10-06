@@ -1,5 +1,18 @@
  $(function(){
 
+// NOVO
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+
+
+
+
+
  	renderMap();/* Atualiza o mapa na tela na parte superior */
 
  	$('#btnExpandMap').click(function(e) {

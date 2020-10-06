@@ -4,12 +4,65 @@
 	--cor-secundaria:#E58928;
 }
 
+
 * {
 	margin:0;
 	padding:0;
 	outline:0;
 	box-sizing:border-box;
 }
+
+
+
+
+/* NOVO CSS 06-10-20*/
+  .swiper-slide img{
+      width: 100%;
+    }
+    .swiper-button-prev, .swiper-button-next {
+    	color: #FFF;
+    }
+    ul.buttons-perfil-imovel{
+    	list-style: none;
+    	display: flex;
+    	flex-wrap: wrap;
+    	width: 100%;
+    	margin: 8px auto;
+    	padding: 0;
+    }
+    .buttons-perfil-imovel li{
+    	  flex:1 1 20px;
+    	  text-align: center;
+    }
+    .buttons-perfil-imovel li button {
+    	background-color: var(--cor-secundaria);
+    	border: 0;
+    	outline: 0;
+    }
+    .buttons-perfil-imovel li button p{
+    	font-weight: bold;
+    	padding: 0;
+    	margin: 0;
+    	display: inline;
+    	font-size: 11px;
+    }
+
+    .section.full-info-property{
+    	padding: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Botão 'X' que surge no box azul em perfil-imóvel */
 .btn-close-details{
 	position: absolute;

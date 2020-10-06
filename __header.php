@@ -10,6 +10,8 @@
 
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+	<script src="https://unpkg.com/embla-carousel@latest/embla-carousel.umd.js"></script>
+
 	<link rel="icon" type="image/png" size="192x192" href="assets/images/favicon-96x96.png">
 
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">    
@@ -24,7 +26,12 @@
 	
 	<!-- End - Jquery UI - Range -->
 	
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	
 	<link rel="stylesheet" href="assets/css/style.css">
+
+
 	
 </head>
 <body>

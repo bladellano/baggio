@@ -1,11 +1,37 @@
 <?php require("__header.php"); ?>
 
-<ol class="breadcrumb">
+<ol class="breadcrumb d-none d-md-block">
 	<li class="breadcrumb-item"><a href="#">Home</a></li>
 	<li class="breadcrumb-item active" aria-current="page">Resultado de Pesquisa</li>
 </ol>
 
-<div class="container-fluid main-baggio">
+<!-- NOVO -->
+
+<!-- Swiper -->
+<div class="swiper-container d-sm-block d-md-none">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="https://picsum.photos/id/12/200/100" alt=""></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/31/200/100" alt=""></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/334/200/100" alt=""></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/11/200/100" alt=""></div>
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+</div>
+
+<ul class="buttons-perfil-imovel d-sm-block d-md-none">
+    <li><button class="btn btn-primary btn-sm"> <img src="assets/images/buttons-perfil-imovel/Grupo 2492.png"> <p>360°</p></button> </li>
+    <li><button class="btn btn-primary btn-sm"> <img src="assets/images/buttons-perfil-imovel/shapes-and-symbols (1).png"> <p>Vídeo</p></button> </li>
+    <li><button class="btn btn-primary btn-sm"> <img src="assets/images/buttons-perfil-imovel/Grupo 2487.png"> <p>Mapa</p></button> </li>
+    <li><button class="btn btn-primary btn-sm"> <img src="assets/images/buttons-perfil-imovel/map (2).png"> <p>Ruas </p></button> </li>
+    <li><button class="btn btn-primary btn-sm"> <img src="assets/images/buttons-perfil-imovel/photo (2).png"> <p>Fotos </p></button> </li>
+</ul>
+
+
+
+
+<div class="container-fluid main-baggio d-none d-md-block">
 	<div class="row">
 		<div class="col-md-12">
 			
