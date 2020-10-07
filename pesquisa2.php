@@ -1,13 +1,24 @@
 <?php require("__header.php"); ?>
 
-<ol class="breadcrumb">
+<ol class="breadcrumb d-none d-md-block">
 	<li class="breadcrumb-item"><a href="#">Home</a></li>
 	<li class="breadcrumb-item active" aria-current="page">Resultado de Pesquisa</li>
 </ol>
 
+
 <div class="wrap grid-template">
 
 	<div class="mapa">
+		<div class="input-search-filter">
+			<div class="row justify-content-center">
+				<div class="col-3">
+					<button class="btn btn-primary btn-sm"> <img src="assets/images/Grupo 2471.png" alt=""> FILTRAR</button>
+				</div>
+				<div class="col-8">
+					<input type="text" class="form-control form-control-sm" placeholder="Pesquisar endereço">
+				</div>
+			</div>
+		</div>		
 		<div class="mapColapse">
 			<div id="map-of-interest" style="display:none">
 				<div class="btn-close">x</div> 

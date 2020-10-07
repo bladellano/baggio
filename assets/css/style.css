@@ -87,10 +87,34 @@ ul.buttons-perfil-imovel{
 /* Manipula o comportamento da tela de pesquisa com mapa */
 .wrap{
 	padding: 2px;
-	max-width: 94%;	
+	max-width: 100%; /*FOCO*/	
 	display: grid;
 	margin: 0 auto;
 }
+.mapa .input-search-filter input{/*FOCO*/
+	background: url(../images/surface1.png) no-repeat scroll 7px 7px;
+	padding-left:30px;
+}
+.mapa .input-search-filter img{/*FOCO*/
+	width: 13px
+}
+.mapa .input-search-filter button{/*FOCO*/
+	background-color: var(--cor-secundaria);
+	border:none;
+	width: 118%;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 5px;
+}
+.mapa .input-search-filter{/*FOCO*/
+	position: absolute;
+	z-index: 1;
+	background-color:#FFF9;
+	width: 100%;
+	height: 50px;
+	padding: 8px 0px;
+}
+
 .mapa{
 	grid-area: mapa;
 	position: relative;
@@ -1479,7 +1503,7 @@ footer {
 			height: auto!important;			
 			}*/
 			.mapColapse{
-				display: none;
+				/*display: none;*/ /*FOCO*/
 			}
 
 			.full-info-property.section h3{
