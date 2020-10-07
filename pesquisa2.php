@@ -1,6 +1,6 @@
 <?php require("__header.php"); ?>
 
-<ol class="breadcrumb d-none d-md-block">
+<ol class="breadcrumb d-none">
 	<li class="breadcrumb-item"><a href="#">Home</a></li>
 	<li class="breadcrumb-item active" aria-current="page">Resultado de Pesquisa</li>
 </ol>
@@ -9,13 +9,23 @@
 <div class="wrap grid-template">
 
 	<div class="mapa">
+		<!-- NOVO -->
+		<div class="box-filter-close">
+			<span>FILTROS</span>
+			<span><a href="#" class="btn-filter-close"><img src="assets/images/close (2).png" alt=""></a></span>
+		</div>
 		<div class="input-search-filter">
 			<div class="row justify-content-center">
 				<div class="col-3">
-					<button class="btn btn-primary btn-sm"> <img src="assets/images/Grupo 2471.png" alt=""> FILTRAR</button>
+					<button class="btn btn-primary btn-sm btn-filter-mobile"> <img src="assets/images/Grupo 2471.png" alt=""> FILTRAR</button>
 				</div>
 				<div class="col-8">
 					<input type="text" class="form-control form-control-sm" placeholder="Pesquisar endereço">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-11 text-right"> 
+					<button class="btn btn-primary btn-sm btn-change-list-or-map">VER EM LISTA</button> 
 				</div>
 			</div>
 		</div>		
@@ -255,11 +265,11 @@
 
 	<div class="resultado">
 
-		<div class="wrap-result section">
+		<div class="wrap-result section" >
 
 			<h3><span>2667 Imóveis encontrados</span></h3> 
 
-			<ul>
+			<ul style="display:flex">
 				
 				<li>						
 					<div class="card-spotlight">
@@ -396,7 +406,6 @@
 						<p class="card-spotlight-price">R$ 4.500,00</p>
 					</div>
 				</li>
-
 
 				<li>						
 					<div class="card-spotlight">

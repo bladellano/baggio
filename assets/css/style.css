@@ -73,9 +73,6 @@ ul.buttons-perfil-imovel{
 
 
 
-
-
-
 /* Botão 'X' que surge no box azul em perfil-imóvel */
 .btn-close-details{
 	position: absolute;
@@ -98,13 +95,21 @@ ul.buttons-perfil-imovel{
 .mapa .input-search-filter img{/*FOCO*/
 	width: 13px
 }
-.mapa .input-search-filter button{/*FOCO*/
+.mapa .input-search-filter button.btn-filter-mobile{/*FOCO*/
 	background-color: var(--cor-secundaria);
 	border:none;
 	width: 118%;
 	font-size: 10px;
 	font-weight: bold;
 	padding: 5px;
+}
+.mapa .input-search-filter button.btn-change-list-or-map{/*FOCO*/
+	background-color: var(--cor-primaria);
+	border:none;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 18px;
+	padding: 10px 6px;
 }
 .mapa .input-search-filter{/*FOCO*/
 	position: absolute;
@@ -114,6 +119,41 @@ ul.buttons-perfil-imovel{
 	height: 50px;
 	padding: 8px 0px;
 }
+
+.mapa .box-filter-close{/*FOCO*/
+	padding: 8px 10px;
+	display: none;
+	justify-content: space-between;
+}
+.mapa .box-filter-close img{/*FOCO*/
+	width: 22px;
+}
+.mapa .box-filter-close span{/*FOCO*/
+	font-size: 20px;
+	color:var(--cor-primaria);
+}
+.mapa .box-filter-close.active{/*FOCO*/
+	display: flex;
+}
+/* Reset para desktop/mobile */
+/* FOCO */
+@media only screen and (min-width: 812px) {
+	.mapColapse,.wrap-filter,.breadcrumb{
+		display: flex!important;
+	}
+	.input-search-filter,.box-filter-close{
+		display: none!important;
+	}
+} 
+
+
+
+
+
+
+
+
+
 
 .mapa{
 	grid-area: mapa;
@@ -1226,6 +1266,7 @@ nav .navbar-nav .nav-item{
 
 .card-spotlight ul{
 	margin: 0px;
+	display: block;/* FOCO */
 	list-style: none;
 	padding: 0px 6px;
 }
@@ -1449,9 +1490,9 @@ footer {
 /*======================*/
 
 /*I - breakpoint*/
-@media (max-width: 992px) { 
+@media (max-width: 992px) { 	
 	.wrap-result ul li{
-		flex: 1 1 54px;
+		flex: 1 1 140px;
 	}
 	.banner-key{
 		padding: 6px;
@@ -1464,6 +1505,11 @@ footer {
 
 /*II - breakpoint*/
 @media (max-width: 576px) {
+
+	.wrap-filter{
+		display: none; /*FOCO*/
+		width: 140%; /*FOCO*/
+	}
 
 	.grid-template {
 		grid-template-areas:
@@ -1533,7 +1579,7 @@ footer {
 			}
 
 			.wrap-result ul{
-				display:block;
+				display:block; /* FOCO */
 			}
 
 			.wrap-result ul li{
@@ -1554,7 +1600,7 @@ footer {
 				max-width: 200px;
 			}
 			.card-spotlight {
-				max-width: 200px;
+				max-width: 148px;/*FOCO*/
 			}
 			.text-xs-center {
 				text-align: center !important;
