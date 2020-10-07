@@ -1,11 +1,20 @@
  $(function(){
 
-// NOVO
+	// NOVO
+    /* Inicializa lib swiper */
     var swiper = new Swiper('.swiper-container', {
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+    });
+
+    /* Troca display conforme clica no botões */
+    $('.btn.btn-primary.btn-sm[id]').click(function(e) {
+    	e.preventDefault();
+    	let id =  $(this).attr('id');
+    	$('.click-box').hide();
+    	$(`.show-${id}`).fadeIn();
     });
 
 

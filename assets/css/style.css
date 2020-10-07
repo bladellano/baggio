@@ -16,40 +16,53 @@
 
 
 /* NOVO CSS 06-10-20*/
-  .swiper-slide img{
-      width: 100%;
-    }
-    .swiper-button-prev, .swiper-button-next {
-    	color: #FFF;
-    }
-    ul.buttons-perfil-imovel{
-    	list-style: none;
-    	display: flex;
-    	flex-wrap: wrap;
-    	width: 100%;
-    	margin: 8px auto;
-    	padding: 0;
-    }
-    .buttons-perfil-imovel li{
-    	  flex:1 1 20px;
-    	  text-align: center;
-    }
-    .buttons-perfil-imovel li button {
-    	background-color: var(--cor-secundaria);
-    	border: 0;
-    	outline: 0;
-    }
-    .buttons-perfil-imovel li button p{
-    	font-weight: bold;
-    	padding: 0;
-    	margin: 0;
-    	display: inline;
-    	font-size: 11px;
-    }
-
-    .section.full-info-property{
-    	padding: 0px;
-    }
+.swiper-slide img{
+	width: 100%;
+}
+.swiper-button-prev, .swiper-button-next {
+	color: #FFF;
+}
+ul.buttons-perfil-imovel{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 8px auto;
+	padding: 0;
+}
+.buttons-perfil-imovel li{
+	flex:1 1 20px;
+	text-align: center;
+}
+.buttons-perfil-imovel li button {
+	background-color: var(--cor-secundaria);
+	border: 0;
+	outline: 0;
+}
+.buttons-perfil-imovel li button:hover,
+.buttons-perfil-imovel li button:focus {
+	background-color: var(--cor-primaria);
+}
+.buttons-perfil-imovel li button p{
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	font-size: 11px;
+}
+.section.full-info-property{
+	padding: 0px;
+}
+.click-box.active{
+	display: block;	
+}
+.click-box{
+	background-color: #CCC;
+	text-align: center;
+	width: 100%;
+	height: 180px;
+	display: none;
+}
 
 
 
