@@ -8,12 +8,14 @@
 <!-- NOVO -->
 
 <!-- Swiper -->
-<div class="swiper-container d-sm-block d-md-none show-360 click-box active">
+<div class="swiper-container d-flex d-md-none show-360 click-box active">
 	<div class="swiper-wrapper">
-		<div class="swiper-slide"><img src="https://picsum.photos/id/12/200/100" alt=""></div>
-		<div class="swiper-slide"><img src="https://picsum.photos/id/31/200/100" alt=""></div>
-		<div class="swiper-slide"><img src="https://picsum.photos/id/334/200/100" alt=""></div>
-		<div class="swiper-slide"><img src="https://picsum.photos/id/11/200/100" alt=""></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/55/200/100"></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/71/200/100"></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/314/200/100"></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/901/200/100"></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/666/200/100"></div>
+		<div class="swiper-slide"><img src="https://picsum.photos/id/216/200/100"></div>
 	</div>
 	<!-- Add Pagination -->
 	<div class="swiper-button-prev"></div>
@@ -25,7 +27,7 @@
 <div class="show-ruas click-box">RUAS</div>
 <div class="show-fotos click-box">FOTOS</div>
 
-<ul class="buttons-perfil-imovel d-sm-block d-md-none">
+<ul class="buttons-perfil-imovel d-flex d-md-none">
     <li><button class="btn btn-primary btn-sm" id="360"><img src="assets/images/buttons-perfil-imovel/Grupo 2492.png"> <p>360°</p></button> </li>
     <li><button class="btn btn-primary btn-sm" id="video"><img src="assets/images/buttons-perfil-imovel/shapes-and-symbols (1).png"> <p>Vídeo</p></button> </li>
     <li><button class="btn btn-primary btn-sm" id="mapa"><img src="assets/images/buttons-perfil-imovel/Grupo 2487.png"> <p>Mapa</p></button> </li>

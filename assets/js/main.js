@@ -41,6 +41,7 @@
 		e.preventDefault();
 		let id =  $(this).attr('id');
 		$('.click-box').hide();
+		$('.show-360').removeClass('d-flex');
 		$(`.show-${id}`).fadeIn();
 	});
 

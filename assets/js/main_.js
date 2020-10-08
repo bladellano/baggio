@@ -1,5 +1,32 @@
 $(function(){
     	// NOVO
+
+    /*Botão Lista/Mapa*/
+    $('.btn-change-list-or-map').click(function(e){
+        $('.resultado').toggle();
+        $('.mapColapse').toggle();
+        if(String($('.mapColapse').attr('style')).length == 14)
+            return $(this).html('VER NO MAPA');
+        return $(this).html('VER EM LISTA');
+    });
+
+    /*Abre/Fecha Filter*/
+
+    $('.btn-filter-mobile').click(function(e) {
+        e.preventDefault();
+        $('.input-search-filter').hide();
+        $('.mapColapse').hide();
+        $('.resultado').hide();
+        $('.box-filter-close').addClass('active');
+        $('.wrap-filter').show();
+    });
+    $('.btn-filter-close').click(function(e) {
+        $('.input-search-filter').show();
+        $('.mapColapse').show();
+        $('.box-filter-close').removeClass('active');
+        $('.wrap-filter').hide();
+    });
+
     /* Inicializa lib swiper */
     var swiper = new Swiper('.swiper-container', {
         navigation: {
@@ -13,6 +40,7 @@ $(function(){
         e.preventDefault();
         let id =  $(this).attr('id');
         $('.click-box').hide();
+        $('.show-360').removeClass('d-flex');
         $(`.show-${id}`).fadeIn();
     });
 

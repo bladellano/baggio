@@ -102,7 +102,7 @@ ul.buttons-perfil-imovel{
 	position: absolute;
 	z-index: 1;
 	background-color:#FFF9;
-	width: 100%;
+	width: 96%;
 	height: 50px;
 	padding: 8px 0px;
 }
@@ -122,8 +122,8 @@ ul.buttons-perfil-imovel{
 .mapa .box-filter-close.active{
 	display: flex;
 }
+
 /* Reset para desktop/mobile */
-/* OK */
 @media only screen and (min-width: 812px) {
 	.breadcrumb{
 		display: flex!important;
@@ -134,8 +134,10 @@ ul.buttons-perfil-imovel{
 	.input-search-filter,.box-filter-close{
 		display: none!important;
 	}	
+	.click-box{
+		display: none!important;
+	}
 } 
-
 
 .mapa{
 	grid-area: mapa;
@@ -1501,9 +1503,9 @@ footer {
 		width: auto;
 	}
 }
-
+/*767*/
 /*II - breakpoint*/
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 	.filter-left{
 		max-width: none!important;
 	}
