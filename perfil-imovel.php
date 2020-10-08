@@ -1,11 +1,12 @@
 <?php require("__header.php"); ?>
 
+
+
+<!-- TUDO QUE ESTÁ DENTRO DA MARCAÇÃO, HOUVE ALTERAÇÃO - 06-10-20 -->
 <ol class="breadcrumb d-none d-md-block">
 	<li class="breadcrumb-item"><a href="#">Home</a></li>
 	<li class="breadcrumb-item active" aria-current="page">Resultado de Pesquisa</li>
 </ol>
-
-<!-- NOVO -->
 
 <!-- Swiper -->
 <div class="swiper-container d-flex d-md-none show-360 click-box active">
@@ -22,10 +23,10 @@
 	<div class="swiper-button-next"></div>
 </div>
 
-<div class="show-video click-box">VIDEO</div>
-<div class="show-mapa click-box">MAPA</div>
-<div class="show-ruas click-box">RUAS</div>
-<div class="show-fotos click-box">FOTOS</div>
+<div class="show-video click-box" style="background-color: #fc0">VIDEO</div>
+<div class="show-mapa click-box" style="background-color: #f00">MAPA</div>
+<div class="show-ruas click-box" style="background-color: #fc9">RUAS</div>
+<div class="show-fotos click-box" style="background-color: #f04">FOTOS</div>
 
 <ul class="buttons-perfil-imovel d-flex d-md-none">
     <li><button class="btn btn-primary btn-sm" id="360"><img src="assets/images/buttons-perfil-imovel/Grupo 2492.png"> <p>360°</p></button> </li>
@@ -34,6 +35,10 @@
     <li><button class="btn btn-primary btn-sm" id="ruas"><img src="assets/images/buttons-perfil-imovel/map (2).png"> <p>Ruas </p></button> </li>
     <li><button class="btn btn-primary btn-sm" id="fotos"><img src="assets/images/buttons-perfil-imovel/photo (2).png"> <p>Fotos </p></button> </li>
 </ul>
+
+<!-- FIM DA IMPLEMENTAÇÃO NOVA -->
+
+
 
 
 

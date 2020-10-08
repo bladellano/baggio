@@ -10,8 +10,6 @@
 
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-	<script src="https://unpkg.com/embla-carousel@latest/embla-carousel.umd.js"></script>
-
 	<link rel="icon" type="image/png" size="192x192" href="assets/images/favicon-96x96.png">
 
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">    
@@ -19,20 +17,13 @@
 	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
 	<link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.2/css/ol.css" type="text/css">
-	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.2/css/ol.css" type="text/css">	
 	<!-- Jquery UI - Range -->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	
-	<!-- End - Jquery UI - Range -->
-	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">	
 	<!-- Link Swiper's CSS -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-	
-	<link rel="stylesheet" href="assets/css/style_.css">
-
-
-	
+	<link rel="stylesheet" href="assets/css/swiper-bundle.css">	
+	<link rel="stylesheet" href="assets/css/style.css">
+		
 </head>
 <body>
 

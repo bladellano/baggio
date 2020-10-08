@@ -1,15 +1,14 @@
 <?php require("__header.php"); ?>
 
+
+<!-- TUDO QUE ESTÁ DENTRO DA MARCAÇÃO, HOUVE ALTERAÇÃO - 06-10-20 -->
+
 <ol class="breadcrumb d-none">
 	<li class="breadcrumb-item"><a href="#">Home</a></li>
 	<li class="breadcrumb-item active" aria-current="page">Resultado de Pesquisa</li>
 </ol>
-
-
 <div class="wrap grid-template">
-
 	<div class="mapa">
-		<!-- NOVO -->
 		<div class="box-filter-close">
 			<span>FILTROS</span>
 			<span><a href="#" class="btn-filter-close"><img src="assets/images/close (2).png" alt=""></a></span>
@@ -28,7 +27,13 @@
 					<button class="btn btn-primary btn-sm btn-change-list-or-map">VER EM LISTA</button> 
 				</div>
 			</div>
-		</div>		
+		</div>	
+
+<!-- FIM DA NOVA IMPLEMENTAÇÃO -->
+
+
+
+
 		<div class="mapColapse">
 			<div id="map-of-interest" style="display:none">
 				<div class="btn-close">x</div> 
