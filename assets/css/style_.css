@@ -1503,9 +1503,16 @@ footer {
 		width: auto;
 	}
 }
-/*767*/
+ 
 /*II - breakpoint*/
 @media (max-width: 767px) {
+	.wrap-btn-node{
+		display: block!important;
+		right: 23px;
+	}
+	#btnExpandMap{
+		display: none;
+	}
 	.row.justify-content-center{
 		margin-right: 10px;
 	}
@@ -1513,7 +1520,7 @@ footer {
 		max-width: none!important;
 	}
 	.wrap-result.section h3 span{
-		padding-left: 19px;
+		/*padding-left: 19px;*/
 		font-size: 14px;
 		padding-right: 100px;
 	}

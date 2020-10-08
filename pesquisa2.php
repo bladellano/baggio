@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-11 text-right"> 
+				<div class="col-12 text-right"> 
 					<button class="btn btn-primary btn-sm btn-change-list-or-map">VER EM LISTA</button> 
 				</div>
 			</div>
