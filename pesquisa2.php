@@ -259,6 +259,9 @@
 					</label>
 
 				</div>
+				<div class="form-group">
+					<button class="btn btn-light btn-block btn-baggio">FILTRAR</button>
+				</div>
 			</form>
 		</div>
 	</div>
@@ -267,7 +270,7 @@
 
 		<div class="wrap-result section" >
 
-			<h3><span>2667 Imóveis encontrados</span></h3> 
+			<h3><span>Encontramos 125 itens para sua busca</span></h3> 
 
 			<ul style="display:flex">
 				
