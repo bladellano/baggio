@@ -346,6 +346,7 @@ ul.buttons-perfil-imovel{
 	font-weight: bold;
 	font-size: 12px;
 	color: var(--cor-primaria);
+	word-wrap:anywhere;
 }
 .full-info-property .wrap-compulsory-insurance div {
 	padding: 4px;
@@ -1509,7 +1510,7 @@ footer {
 
 	.full-info-property .wrap-compulsory-insurance div:first-child{
 		display: inherit;
-		width: 34%;
+		width: 50%;
 	}
 	.wrap{
 		display: inherit;
