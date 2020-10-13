@@ -29,8 +29,8 @@
 <div class="show-fotos click-box" style="background-color: #f04">FOTOS</div>
 
 <ul class="buttons-perfil-imovel d-flex d-md-none">
-    <li><button class="btn btn-primary btn-sm" id="360"><img src="assets/images/buttons-perfil-imovel/Grupo 2492.png"> <p>360°</p></button> </li>
     <li><button class="btn btn-primary btn-sm" id="video"><img src="assets/images/buttons-perfil-imovel/shapes-and-symbols (1).png"> <p>Vídeo</p></button> </li>
+    <li><button class="btn btn-primary btn-sm" id="360"><img src="assets/images/buttons-perfil-imovel/Grupo 2492.png"> <p>360°</p></button> </li>
     <li><button class="btn btn-primary btn-sm" id="mapa"><img src="assets/images/buttons-perfil-imovel/Grupo 2487.png"> <p>Mapa</p></button> </li>
     <li><button class="btn btn-primary btn-sm" id="ruas"><img src="assets/images/buttons-perfil-imovel/map (2).png"> <p>Ruas </p></button> </li>
     <li><button class="btn btn-primary btn-sm" id="fotos"><img src="assets/images/buttons-perfil-imovel/photo (2).png"> <p>Fotos </p></button> </li>
