@@ -1506,6 +1506,14 @@ footer {
 
 /*II - breakpoint*/
 @media (max-width: 767px) {
+
+	.full-info-property .wrap-compulsory-insurance div:first-child{
+		display: inherit;
+		width: 34%;
+	}
+	.wrap{
+		display: inherit;
+	}
 	.wrap-btn-node{
 		display: block!important;
 		right: 23px;
