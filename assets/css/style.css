@@ -1508,6 +1508,10 @@ footer {
 /*II - breakpoint*/
 @media (max-width: 767px) {
 
+	.mapColapse{
+		display: none;
+	}
+
 	.full-info-property .wrap-compulsory-insurance div:first-child{
 		display: inherit;
 		width: 50%;
@@ -1534,7 +1538,7 @@ footer {
 		padding-right: 100px;
 	}
 	.resultado{
-		display: none;
+		display: block;
 	}
 	.wrap-filter{
 		display: none; 
