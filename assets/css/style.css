@@ -153,6 +153,7 @@ ul.buttons-perfil-imovel{
 .resultado{
 	grid-area: resultado;
 	padding-left: 10px;
+	width: 1090px;
 }
 .map-expanded {
 	grid-template-areas:
@@ -1495,8 +1496,14 @@ footer {
 /*    Devices Mobile    */
 /*======================*/
 
+@media (max-width: 1120px) {
+	.resultado{
+		width: auto!important;
+	}
+}
 /*I - breakpoint*/
 @media (max-width: 992px) {
+
 	.wrap-result ul li{
 		flex: 1 1 146px;
 	}

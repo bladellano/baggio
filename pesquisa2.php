@@ -312,6 +312,23 @@
 						<p class="card-spotlight-price">R$ 4.500,00</p>
 					</div>
 				</li>
+<!-- 				<li>						
+					<div class="card-spotlight">
+						<img src="assets/images/loose.jpg" alt="title">
+						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
+						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
+						<hr>
+						<ul>
+							<li><i class="fa fa-home"></i>230km²</li>
+							<li><i class="fa fa-bed"></i>04</li>
+							<li><i class="fas fa-shower"></i>02</li>
+							<li><i class="fa fa-car"></i>02</li>
+						</ul>
+						<hr>
+						<p class="card-spotlight-price">R$ 4.500,00</p>
+					</div>
+				</li> -->
+<!-- 
 				<li>						
 					<div class="card-spotlight">
 						<img src="assets/images/loose.jpg" alt="title">
@@ -380,23 +397,6 @@
 					</div>
 				</li>
 
-				<li>						
-					<div class="card-spotlight">
-						<img src="assets/images/loose.jpg" alt="title">
-						<h4>APARTAMENTO, 2 QUARTOS, CURITIBA</h4>
-						<p class="card-spotlight-end">R. Lorenzo Lorenzia, São Luiz, Curitiba</p>
-						<hr>
-						<ul>
-							<li><i class="fa fa-home"></i>230km²</li>
-							<li><i class="fa fa-bed"></i>04</li>
-							<li><i class="fas fa-shower"></i>02</li>
-							<li><i class="fa fa-car"></i>02</li>
-						</ul>
-						<hr>
-						<p class="card-spotlight-price">R$ 4.500,00</p>
-					</div>
-				</li>
-
 
 				<li>						
 					<div class="card-spotlight">
@@ -512,7 +512,7 @@
 						<hr>
 						<p class="card-spotlight-price">R$ 4.500,00</p>
 					</div>
-				</li>
+				</li> -->
 
 			</ul>
 		</div><!-- wrap-result section -->
