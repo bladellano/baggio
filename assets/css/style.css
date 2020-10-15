@@ -142,6 +142,10 @@ ul.buttons-perfil-imovel{
 .mapa{
 	grid-area: mapa;
 	position: relative;
+	width: 370px;
+}
+.active-expanded-map{
+	width:100%;
 }
 .filter-left{
 	max-width: 370px;
@@ -1507,10 +1511,12 @@ footer {
 
 /*II - breakpoint*/
 @media (max-width: 767px) {
-
 	.full-info-property .wrap-compulsory-insurance div:first-child{
 		display: inherit;
 		width: 50%;
+	}
+	.wrap .mapa{
+		width: 100%;
 	}
 	.wrap{
 		display: inherit;
