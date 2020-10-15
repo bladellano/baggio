@@ -45,11 +45,16 @@ $(function(){
         $(`.show-${id}`).fadeIn();
     });
 
+
+
+
+
+
+
     // renderMap();/* Atualiza o mapa na tela na parte superior */
 
     $('#btnExpandMap').click(function(e) {
         $('.wrap').toggleClass('map-expanded');
-        $('.wrap .mapa').toggleClass('active-expanded-map');
     });
 
     $('#btn-load-more').click(function(){

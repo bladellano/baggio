@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+
+<style>
+	.grid-template div{
+		width: 100px;
+		height: 200px;
+	}
+	.grid-template{
+		grid-template-areas:
+		"mapa resultado"
+		"filter-left resultado"
+		"filter-left resultado"
+		;
+	}
+	.mapa{
+		grid-area: mapa;
+		background-color: blue;
+
+	}
+	.filter_left{
+		grid-area: filter_left;
+		background-color: red;
+
+	}
+	.resultado{
+		grid-area: resultado;
+		background-color: green;
+
+	}
+</style>
+<body>
+	
+	<div class="grid-template">
+		<div class="mapa">
+			m
+		</div>
+		<div class="filter_left">
+			f
+		</div>
+		<div class="resultado">
+			r
+		</div>
+	</div>
+</body>
+</html>

@@ -142,18 +142,13 @@ ul.buttons-perfil-imovel{
 .mapa{
 	grid-area: mapa;
 	position: relative;
-	width: 370px;
-}
-.active-expanded-map{
-	width:100%;
 }
 .filter-left{
-	max-width: 370px;
+	/*grid-area: filter-left;*/
 }
 .resultado{
 	grid-area: resultado;
 	padding-left: 10px;
-	width: 1090px;
 }
 .map-expanded {
 	grid-template-areas:
@@ -163,6 +158,7 @@ ul.buttons-perfil-imovel{
 	!important;
 }
 .grid-template {
+	grid-template-columns: 30% 70%;
 	grid-template-areas:
 	"mapa resultado"
 	"filter-left resultado"
@@ -254,7 +250,6 @@ ul.buttons-perfil-imovel{
 	width: 32px;
 	cursor:pointer;
 }
-
 
 /* Css que manipula a expansão do mapa */
 .wrap-general{
@@ -1496,14 +1491,8 @@ footer {
 /*    Devices Mobile    */
 /*======================*/
 
-@media (max-width: 1120px) {
-	.resultado{
-		width: auto!important;
-	}
-}
 /*I - breakpoint*/
 @media (max-width: 992px) {
-
 	.wrap-result ul li{
 		flex: 1 1 146px;
 	}
@@ -1518,12 +1507,10 @@ footer {
 
 /*II - breakpoint*/
 @media (max-width: 767px) {
+
 	.full-info-property .wrap-compulsory-insurance div:first-child{
 		display: inherit;
 		width: 50%;
-	}
-	.wrap .mapa{
-		width: 100%;
 	}
 	.wrap{
 		display: inherit;
